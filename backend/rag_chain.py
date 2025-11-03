@@ -14,6 +14,8 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import RunnablePassthrough
 from operator import itemgetter
 from langchain.schema.output_parser import StrOutputParser
+from langchain.retrievers import EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever
 
 logger = logging.getLogger(__name__)
 
@@ -120,12 +122,30 @@ def get_conversational_chain(category):
         logger.error(f"Failed to load or merge vector stores for category '{category}': {e}", exc_info=True)
         return None
 
-    fetch_k_value = 30
-    top_n_value = 5
-    base_retriever = main_vs.as_retriever(search_type="similarity", search_kwargs={"k": RETRIEVER_K, "fetch_k": fetch_k_value})
-    reranker = FlashrankRerank(top_n=top_n_value)
+    semantic_retriever = main_vs.as_retriever(
+        search_type="similarity", 
+        search_kwargs={"k": RETRIEVER_K, "fetch_k": 30}
+    )
+    
+    # keyword-based BM25 retriever
+    all_docs = []
+    for vs in all_vector_stores:
+        all_docs.extend(vs.docstore._dict.values())
+    
+    bm25_retriever = BM25Retriever.from_documents(all_docs)
+    bm25_retriever.k = RETRIEVER_K
+    
+    # 70% semantic, 30% keyword
+    hybrid_retriever = EnsembleRetriever(
+        retrievers=[semantic_retriever, bm25_retriever],
+        weights=[0.7, 0.3]
+    )
+    
+    # reranking on top
+    reranker = FlashrankRerank(top_n=5)
     compression_retriever = ContextualCompressionRetriever(
-        base_compressor=reranker, base_retriever=base_retriever
+        base_compressor=reranker, 
+        base_retriever=hybrid_retriever
     )
 
     prompt = ChatPromptTemplate.from_messages([

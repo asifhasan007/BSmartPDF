@@ -1,7 +1,3 @@
-import os
-import shutil
-import logging
-import sqlite3
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 from config import UPLOADS_FOLDER, VECTOR_STORES_FOLDER
@@ -10,9 +6,7 @@ from rag_chain import get_conversational_chain,  get_general_ai_chain
 from langchain.memory import ConversationBufferMemory
 from langchain_core.messages import HumanMessage, AIMessage
 from database import init_db, DATABASE_NAME
-import uuid
-import sys
-import io
+import io, json, uuid, sys, os, shutil, logging, sqlite3
 
 # force UTF-8 encoding for stdout/stderr on Windows
 if sys.platform == "win32":
@@ -89,24 +83,58 @@ def delete_document_handler(category, filename):
     logger.info(f"Request to delete document '{filename}' from category '{category}'.")
     pdf_path = os.path.join(UPLOADS_FOLDER, category, filename)
     pdf_name_without_ext = os.path.splitext(filename)[0]
-    vector_store_path = os.path.join(VECTOR_STORES_FOLDER, category, pdf_name_without_ext)
+    
+    # Import sanitize function to get the sanitized name
+    from utils import sanitize_filename
+    sanitized_name = sanitize_filename(pdf_name_without_ext)
+    
+    vector_store_path = os.path.join(VECTOR_STORES_FOLDER, category, sanitized_name)
+    mapping_file = os.path.join(VECTOR_STORES_FOLDER, category, '_name_mapping.json')
+    
     pdf_deleted = False
     vector_store_deleted = False
+    mapping_updated = False
 
     try:
+        # Delete PDF file
         if os.path.exists(pdf_path):
             os.remove(pdf_path)
             pdf_deleted = True
             logger.info(f"Successfully deleted PDF file: {pdf_path}")
         else:
             logger.warning(f"PDF file not found, could not delete: {pdf_path}")
-
+        
+        # Delete vector store
         if os.path.exists(vector_store_path):
             shutil.rmtree(vector_store_path)
             vector_store_deleted = True
             logger.info(f"Successfully deleted vector store: {vector_store_path}")
         else:
             logger.warning(f"Vector store not found, could not delete: {vector_store_path}")
+
+        # Remove from name mapping
+        if os.path.exists(mapping_file):
+            try:
+                with open(mapping_file, 'r', encoding='utf-8') as f:
+                    mappings = json.load(f)
+                
+                # Remove the sanitized name from mappings
+                if sanitized_name in mappings:
+                    original_name = mappings.pop(sanitized_name)
+                    logger.info(f"Removed mapping: {sanitized_name} -> {original_name}")
+                    
+                    # Save updated mappings
+                    with open(mapping_file, 'w', encoding='utf-8') as f:
+                        json.dump(mappings, f, ensure_ascii=False, indent=2)
+                    
+                    mapping_updated = True
+                    logger.info(f"Successfully updated name mapping file")
+                else:
+                    logger.warning(f"Sanitized name '{sanitized_name}' not found in mappings")
+            except Exception as e:
+                logger.error(f"Error updating name mapping: {e}")
+        else:
+            logger.info(f"No name mapping file found at: {mapping_file}")
 
         if not pdf_deleted and not vector_store_deleted:
             return jsonify({"error": "File and vector store not found."}), 404
@@ -115,7 +143,8 @@ def delete_document_handler(category, filename):
             "message": f"Successfully deleted '{filename}' and its associated data.",
             "details": {
                 "pdf_deleted": pdf_deleted,
-                "vector_store_deleted": vector_store_deleted
+                "vector_store_deleted": vector_store_deleted,
+                "mapping_updated": mapping_updated
             }
         }), 200
 

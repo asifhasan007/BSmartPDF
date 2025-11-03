@@ -20666,3 +20666,1773 @@ Unique PDFs accessed: {'Cls-9-10 Bangla Sahitto Inner', 'test4', 'Nirdeshika_202
 2025-10-17 17:13:32,427 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST3\Cls-9-10 Bangla Sahitto Inner.pdf
 2025-10-17 17:13:32,428 - INFO - Successfully serving PDF: Cls-9-10 Bangla Sahitto Inner
 2025-10-17 17:13:32,429 - INFO - 127.0.0.1 - - [17/Oct/2025 17:13:32] "[36mGET /pdf/TEST3/Cls-9-10%20Bangla%20Sahitto%20Inner HTTP/1.1[0m" 304 -
+2025-10-20 11:08:26,735 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-20 11:08:26,735 - INFO - Starting Flask application
+2025-10-20 11:08:26,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.224.223:5000
+2025-10-20 11:08:26,826 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-20 11:08:26,834 - INFO -  * Restarting with stat
+2025-10-20 11:08:41,727 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-20 11:08:41,731 - INFO - Starting Flask application
+2025-10-20 11:08:41,740 - WARNING -  * Debugger is active!
+2025-10-20 11:08:41,743 - INFO -  * Debugger PIN: 107-334-979
+2025-10-20 11:08:46,614 - INFO - Request to fetch chat history for category 'TEST3'.
+2025-10-20 11:08:46,620 - INFO - Found 67 messages for category 'TEST3'.
+2025-10-20 11:08:46,620 - INFO - 127.0.0.1 - - [20/Oct/2025 11:08:46] "GET /chat/history/TEST3 HTTP/1.1" 200 -
+2025-10-20 11:08:46,624 - INFO - 127.0.0.1 - - [20/Oct/2025 11:08:46] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-20 11:08:46,628 - INFO - 127.0.0.1 - - [20/Oct/2025 11:08:46] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 12:26:21,298 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 12:26:21,303 - INFO - Starting Flask application
+2025-10-27 12:26:21,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.224.223:5000
+2025-10-27 12:26:21,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 12:26:21,409 - INFO -  * Restarting with stat
+2025-10-27 12:26:35,505 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 12:26:35,510 - INFO - Starting Flask application
+2025-10-27 12:26:35,518 - WARNING -  * Debugger is active!
+2025-10-27 12:26:35,522 - INFO -  * Debugger PIN: 440-985-645
+2025-10-27 12:27:08,468 - INFO - Request to fetch chat history for category 'TEST3'.
+2025-10-27 12:27:08,468 - INFO - Found 67 messages for category 'TEST3'.
+2025-10-27 12:27:08,468 - INFO - 127.0.0.1 - - [27/Oct/2025 12:27:08] "GET /chat/history/TEST3 HTTP/1.1" 200 -
+2025-10-27 12:27:08,468 - INFO - 127.0.0.1 - - [27/Oct/2025 12:27:08] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 12:27:08,482 - INFO - 127.0.0.1 - - [27/Oct/2025 12:27:08] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 12:30:27,067 - INFO - 127.0.0.1 - - [27/Oct/2025 12:30:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 12:30:27,070 - INFO - Found 9 vector store(s) for category 'TEST3'
+2025-10-27 12:30:27,070 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\066b5524c165f0989fcea419c61b6548
+2025-10-27 12:30:27,085 - INFO - Loading faiss with AVX2 support.
+2025-10-27 12:30:27,326 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-27 12:30:27,392 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 12:30:27,392 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\1935205827cc392cec6214681f5d5002
+2025-10-27 12:30:27,406 - INFO - Successfully loaded: বাংলা একাডেমির প্রমিত বানানের নিয়ম গুলো
+2025-10-27 12:30:27,406 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\3c95df5f0823a009b22e12076911f1d5
+2025-10-27 12:30:27,419 - INFO - Successfully loaded: Nirdeshika_2025-26
+2025-10-27 12:30:27,419 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\677568bf5ac9e59fa1e742b814330543
+2025-10-27 12:30:27,446 - INFO - Successfully loaded: search-engine-optimization-bangla-e-book-tutorial-training-in-bangladesh-seo
+2025-10-27 12:30:27,446 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\86985e105f79b95d6bc918fb45ec7727
+2025-10-27 12:30:27,459 - INFO - Successfully loaded: test4
+2025-10-27 12:30:27,459 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\8ad8757baa8564dc136c1e07507f4a98
+2025-10-27 12:30:27,472 - INFO - Successfully loaded: test3
+2025-10-27 12:30:27,472 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\ad0234829205b9033196ba818f7a872b
+2025-10-27 12:30:27,486 - INFO - Successfully loaded: test2
+2025-10-27 12:30:27,486 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\b7173242dd6a2c71c736474bf024d52d
+2025-10-27 12:30:27,512 - INFO - Successfully loaded: Cls-9-10 Bangla Sahitto Inner
+2025-10-27 12:30:27,512 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\f5512a773c2232bbb204246908b897fb
+2025-10-27 12:30:27,526 - INFO - Successfully loaded: html-publish
+2025-10-27 12:30:27,526 - INFO - Merging 8 additional vector store(s)...
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 1/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 2/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 3/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 4/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 5/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 6/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 7/8
+2025-10-27 12:30:27,526 - INFO - Successfully merged vector store 8/8
+2025-10-27 12:30:27,526 - INFO - All vector stores merged successfully.
+2025-10-27 12:30:30,192 - INFO - ==================================================
+2025-10-27 12:30:30,192 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 12:30:30,192 - INFO - ==================================================
+2025-10-27 12:30:30,192 - INFO - 
+Document 1:
+2025-10-27 12:30:30,192 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:30:30,192 - INFO -    Page: 41
+2025-10-27 12:30:30,193 - INFO -    Language: bangla
+2025-10-27 12:30:30,193 - INFO -    Content Preview: অনুযায়ী 
+করদাতার কৃসষ খাশত িবডশমাট আশয়র উপর অনসিক ৫,০০,০০০ টাকা মমাট আয় পসরগণনা হশত বাদ 
+যাশব ষষ্ঠ তফতসল অাংশ ১ এর দফা (২০ক) অনুযায়ী আয় ও কর পসরগণনাোঃ ষষ্ঠ তফতসল অাংশ ১ এর দফা (২০ক) অনুিাশর বকাদনা ব্যতির হাঁি-মুরগী, সিাংসড় ও মাশের হযািারী, 
+মপশলশটর্ মপাসি সফর্ উৎপাদন, সিাংসড় ও মাশের মপশলশটর্ সফর্ উৎপাদন, দুগ্ধজাত দ্রব্য উৎপাদন, 
+ব্যাঙ উৎপাদন খামার, বীজ সবপণন, মরেম গুটিশপাকা পালশনর খামার ইতযাসদ িাদতর আওতার্ভি 
+অনতধক ৫ (পাঁি) লে টাকা মমাট আয় পসরগণনা হশত বাদ যাশব উোহরণ-৮ 
+বমাতমনা িাতুদনর ২০২৪-২০২৫ আয়বদষড মাদের হযািারী বথদক ১০,০০,০০০ টাকার নীট আয় আদে একই বেদর তততন তার ওয়ান ব্যাাংক তপএলতসদত সঞ্চয়ী তহসাব হদত ব্যাাংক সুে বাবে ৫,৫০,০০০ টাকা 
+প্রাপ্ত হদয়দেন যার তবপরীদত ব্যাাংক ৫৫,০০০ টাকা উৎদস কর কতডন কদরদে...
+2025-10-27 12:30:30,193 - INFO - 
+Document 2:
+2025-10-27 12:30:30,193 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:30:30,193 - INFO -    Page: 52
+2025-10-27 12:30:30,193 - INFO -    Language: bangla
+2025-10-27 12:30:30,193 - INFO -    Content Preview: ৭৩ ধারা অনুযায়ী প্রশদয় 
+ কদরর পতরমাণ 
+৩০,২০,০০০ ৬ আতথডক পতরসম্পে হইদত আয় আয়কর আইন, ২০২৩ এর ধারা ৬২-৬৫ অনুযায়ী আতথডক পতরসম্পে হইদত আয় পতরগণনা করদত 
+হদব বকাদনা ব্যতির তনম্নবতণডত আয় “আতথডক পতরসম্পে হইদত আয়” িাদতর অধীন পতরগতণত হদব, যথা:- 
+(ক) 
+সরকাতর বা সরকার কতৃডক অনুদমাতেত তসতকউতরটিদজর সুে, মুনাফা বা বাট্টা; 
+(ি)  
+স্থানীয় কতৃডপে বা বকাম্পাতন কতৃডক ইসুযকৃত তর্দবঞ্চার বা অন্য বকাদনা প্রকাদরর 
+তসতকউতরটিদজর সুে, মুনাফা বা বাট্টা;  
+(গ) 
+তনম্নবতণডত উৎস হদত প্রাপ্য সুে বা মুনাফা, যথা: - 
+(অ) 
+বকাদনা ব্যাাংক বা আতথডক প্রততষ্ঠাদন রতেত আমানত, তাহা বয নাদমই অতভতহত 
+হউক না বকন; 
+(আ) 
+বকাদনা আতথডক পসরিম্পদ, পণ্য বা তস্কম; 
+(ঘ) 
+লভযাাংশ তদব, আতথডক পতরসম্পে হস্তান্তর হদত অতজডত মূলধতন আয় “আতথডক পতরসম্পে হইদত আয়” তহসাদব 
+পতরগতণত হদব না...
+2025-10-27 12:30:30,193 - INFO - 
+Document 3:
+2025-10-27 12:30:30,193 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:30:30,193 - INFO -    Page: 38
+2025-10-27 12:30:30,193 - INFO -    Language: bangla
+2025-10-27 12:30:30,193 - INFO -    Content Preview: 31 ষষ্ঠ তফতসল অাংশ ১ এর েফা (২০) অনুযায়ী বকাদনা স্বাভাতবক ব্যতির “কৃতষ হইদত আয়” িাদতর 
+আওতার্ভি অনতধক ৫ (পাঁি) লে টাকা পযডন্ত আয় করমুি থাকদব যতে উি ব্যতির কৃতষ হদত আয় 
+এবাং আতথডক পতরসম্পে হদত আয় ব্যতীত অন্য বকাদনা আয় না থাদক উোহরণ-৫  
+জনাব বসৌতমক এর একটি বর্ইতর ফামড রদয়দে ২০২৪-২৫ অথডবেদর তততন বর্ইতর ফামড হদত 
+১০,০০,০০০ টাকা নীট আয় প্রাপ্ত হদয়দেন এোড়া ব্যাাংক সুে বাবে তার আয় হদয়দে ৫,৫০,০০০ 
+টাকা উি সুদের তবপরীদত উৎদস কর কতডন করা হদয়দে ৫৫,০০০ টাকা মিশক্ষশে করদাতার কর 
+পসরগণনা হশব সনম্নরূপোঃ কর সনিডারণ: (ক) 
+কৃসষ হইশত আয়  
+(মযশহতু করদাতার কৃসষ হইশত আয় এবাং আসথডক 
+পসরিম্পদ হইশত আয় (ব্যাাংক সুদ) ব্যতীত অন্য 
+মকান আশয়র উৎি নাই, মিশহতু ষষ্ঠ তফসিশলর 
+অাংে ১ এর দফা ২০ অনুযায়ী ৫,০০,০০০ টাকা 
+আয় পসরগণনা হশত বাদ যাশব ) ৫,০০,০০০ 
+(খ) 
+আসথডক পসরিম্পদ হইশত আয় (ব্যাাংক সুদ) ৫,৫০,০০০...
+2025-10-27 12:30:30,193 - INFO - 
+Document 4:
+2025-10-27 12:30:30,193 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:30:30,193 - INFO -    Page: 35
+2025-10-27 12:30:30,193 - INFO -    Language: bangla
+2025-10-27 12:30:30,193 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 12:30:30,193 - INFO - 
+Document 5:
+2025-10-27 12:30:30,193 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:30:30,193 - INFO -    Page: 6
+2025-10-27 12:30:30,193 - INFO -    Language: bangla
+2025-10-27 12:30:30,193 - INFO -    Content Preview: ii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৮ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয পমরচামলত 
+বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র 
+িাধ্যর্ি অমজেত আর্য়র উপর করহার  
+১৬ 
+১৯ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমতর শতোিমল 
+১৬ 
+২০ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমত শর্তের মশমর্লতা, রমহতকরণ ও বহফাজত  
+১৭ 
+২১ 
+আয়কর আইন, ২০২৩ উর্েমিত কমতপয় শব্দ ও বরফার্রন্স সংর্শাধন 
+১৮ 
+২২ 
+আয়কর আইন, ২০২৩ এর ধারা ২ এ আনীত সংর্শাধনসমূহ 
+১৮ 
+২৩ 
+অনুর্িামদত আনুর্তামষক তহমিল” এিং “অনুর্িামদত িাধেকয তহমিল 
+িা বপনশন তহমিল” এর সংজ্ঞোয় সংরিোধন 
+১৮ 
+২৪ 
+“আমর্েক প্রমতষ্ঠান” এর সংজ্ঞা এর মির্লাপ 
+১৯ 
+২৫ 
+“আয়” এর সংজ্ঞোয় সংর্শাধন  
+১৯ 
+২৬ 
+“কমেচোরী” এর সংজ্ঞো প্ররতস্থোপন 
+১৯ 
+২৭ 
+“কর করমিনোর” এর সংজ্ঞো সংর োজন 
+২০ 
+২৮ 
+“কর রনধেোরণ” এর সংজ্ঞো সংর োজন 
+২০ 
+২৯ 
+“চােোডে বসর্ক্রোমর” এর সংজ্ঞো সংর োজন 
+২০ 
+৩০ 
+“দাতব্য উর্েশ্য” এর সংজ্ঞো সংরিোধন 
+২০ 
+৩১ 
+দোতব্য উরেরে প্ররতরিত সত্তোসমূরহর করোররোপণ সংক্রোন্ত স্পরিকরণ 
+২১ 
+৩২ 
+দোতব্য প্ররতিোরনর আইনোনুে সংজ্ঞো  
+২২ 
+৩৩ 
+প্ররতিোরনর স্বোভোরবক কো েক্ররমর পোিোপোরি দোতব্য কো েক্রম পররচোিনো 
+প্ররতিোনরক রক দোতব্য প্ররতিোন করর কতোরি...
+2025-10-27 12:30:30,193 - INFO - 
+Unique PDFs accessed: {'Nirdeshika_2025-26', 'আয়কর পরিপত্র'}
+2025-10-27 12:30:30,193 - INFO - Total documents retrieved: 5
+2025-10-27 12:30:30,193 - INFO - ==================================================
+2025-10-27 12:30:31,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:30:31,582 - INFO - Retrying request to /chat/completions in 0.423559 seconds
+2025-10-27 12:30:33,115 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:30:33,115 - INFO - Retrying request to /chat/completions in 0.915386 seconds
+2025-10-27 12:30:34,934 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:30:34,934 - ERROR - Critical error in chat handler for category 'TEST3': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\app.py", line 226, in chat_handler
+    result = rag_chain.invoke({
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 530, in invoke
+    return self._call_with_config(self._invoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2092, in _call_with_config
+    context.run(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\config.py", line 430, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 516, in _invoke
+    **self.mapper.invoke(
+      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 4001, in invoke
+    output = {key: future.result() for key, future in zip(steps, futures)}
+                   ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3985, in _invoke_step
+    return context.run(
+           ^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1213, in _generate
+    raise e
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1208, in _generate
+    raw_response = self.client.with_raw_response.create(**payload)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_legacy_response.py", line 364, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-27 12:30:35,062 - INFO - 127.0.0.1 - - [27/Oct/2025 12:30:35] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-10-27 12:31:15,331 - INFO - Request to fetch chat history for category 'TEST2'.
+2025-10-27 12:31:15,333 - INFO - Found 40 messages for category 'TEST2'.
+2025-10-27 12:31:15,334 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:15] "GET /chat/history/TEST2 HTTP/1.1" 200 -
+2025-10-27 12:31:15,336 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:15] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 12:31:15,343 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:15] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 12:31:17,602 - INFO - Request to fetch chat history for category 'TEST3'.
+2025-10-27 12:31:17,626 - INFO - Found 68 messages for category 'TEST3'.
+2025-10-27 12:31:17,626 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:17] "GET /chat/history/TEST3 HTTP/1.1" 200 -
+2025-10-27 12:31:17,637 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:17] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 12:31:23,733 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 12:31:23,746 - INFO - Found 9 vector store(s) for category 'TEST3'
+2025-10-27 12:31:23,746 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\066b5524c165f0989fcea419c61b6548
+2025-10-27 12:31:23,749 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 12:31:23,749 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\1935205827cc392cec6214681f5d5002
+2025-10-27 12:31:23,750 - INFO - Successfully loaded: বাংলা একাডেমির প্রমিত বানানের নিয়ম গুলো
+2025-10-27 12:31:23,750 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\3c95df5f0823a009b22e12076911f1d5
+2025-10-27 12:31:23,754 - INFO - Successfully loaded: Nirdeshika_2025-26
+2025-10-27 12:31:23,754 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\677568bf5ac9e59fa1e742b814330543
+2025-10-27 12:31:23,756 - INFO - Successfully loaded: search-engine-optimization-bangla-e-book-tutorial-training-in-bangladesh-seo
+2025-10-27 12:31:23,756 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\86985e105f79b95d6bc918fb45ec7727
+2025-10-27 12:31:23,756 - INFO - Successfully loaded: test4
+2025-10-27 12:31:23,759 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\8ad8757baa8564dc136c1e07507f4a98
+2025-10-27 12:31:23,759 - INFO - Successfully loaded: test3
+2025-10-27 12:31:23,759 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\ad0234829205b9033196ba818f7a872b
+2025-10-27 12:31:23,760 - INFO - Successfully loaded: test2
+2025-10-27 12:31:23,760 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\b7173242dd6a2c71c736474bf024d52d
+2025-10-27 12:31:23,764 - INFO - Successfully loaded: Cls-9-10 Bangla Sahitto Inner
+2025-10-27 12:31:23,765 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\f5512a773c2232bbb204246908b897fb
+2025-10-27 12:31:23,766 - INFO - Successfully loaded: html-publish
+2025-10-27 12:31:23,766 - INFO - Merging 8 additional vector store(s)...
+2025-10-27 12:31:23,767 - INFO - Successfully merged vector store 1/8
+2025-10-27 12:31:23,767 - INFO - Successfully merged vector store 2/8
+2025-10-27 12:31:23,768 - INFO - Successfully merged vector store 3/8
+2025-10-27 12:31:23,769 - INFO - Successfully merged vector store 4/8
+2025-10-27 12:31:23,769 - INFO - Successfully merged vector store 5/8
+2025-10-27 12:31:23,769 - INFO - Successfully merged vector store 6/8
+2025-10-27 12:31:23,770 - INFO - Successfully merged vector store 7/8
+2025-10-27 12:31:23,770 - INFO - Successfully merged vector store 8/8
+2025-10-27 12:31:23,770 - INFO - All vector stores merged successfully.
+2025-10-27 12:31:25,907 - INFO - ==================================================
+2025-10-27 12:31:25,907 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 12:31:25,907 - INFO - ==================================================
+2025-10-27 12:31:25,907 - INFO - 
+Document 1:
+2025-10-27 12:31:25,907 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:31:25,907 - INFO -    Page: 41
+2025-10-27 12:31:25,907 - INFO -    Language: bangla
+2025-10-27 12:31:25,907 - INFO -    Content Preview: অনুযায়ী 
+করদাতার কৃসষ খাশত িবডশমাট আশয়র উপর অনসিক ৫,০০,০০০ টাকা মমাট আয় পসরগণনা হশত বাদ 
+যাশব ষষ্ঠ তফতসল অাংশ ১ এর দফা (২০ক) অনুযায়ী আয় ও কর পসরগণনাোঃ ষষ্ঠ তফতসল অাংশ ১ এর দফা (২০ক) অনুিাশর বকাদনা ব্যতির হাঁি-মুরগী, সিাংসড় ও মাশের হযািারী, 
+মপশলশটর্ মপাসি সফর্ উৎপাদন, সিাংসড় ও মাশের মপশলশটর্ সফর্ উৎপাদন, দুগ্ধজাত দ্রব্য উৎপাদন, 
+ব্যাঙ উৎপাদন খামার, বীজ সবপণন, মরেম গুটিশপাকা পালশনর খামার ইতযাসদ িাদতর আওতার্ভি 
+অনতধক ৫ (পাঁি) লে টাকা মমাট আয় পসরগণনা হশত বাদ যাশব উোহরণ-৮ 
+বমাতমনা িাতুদনর ২০২৪-২০২৫ আয়বদষড মাদের হযািারী বথদক ১০,০০,০০০ টাকার নীট আয় আদে একই বেদর তততন তার ওয়ান ব্যাাংক তপএলতসদত সঞ্চয়ী তহসাব হদত ব্যাাংক সুে বাবে ৫,৫০,০০০ টাকা 
+প্রাপ্ত হদয়দেন যার তবপরীদত ব্যাাংক ৫৫,০০০ টাকা উৎদস কর কতডন কদরদে...
+2025-10-27 12:31:25,907 - INFO - 
+Document 2:
+2025-10-27 12:31:25,907 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:31:25,907 - INFO -    Page: 52
+2025-10-27 12:31:25,907 - INFO -    Language: bangla
+2025-10-27 12:31:25,907 - INFO -    Content Preview: ৭৩ ধারা অনুযায়ী প্রশদয় 
+ কদরর পতরমাণ 
+৩০,২০,০০০ ৬ আতথডক পতরসম্পে হইদত আয় আয়কর আইন, ২০২৩ এর ধারা ৬২-৬৫ অনুযায়ী আতথডক পতরসম্পে হইদত আয় পতরগণনা করদত 
+হদব বকাদনা ব্যতির তনম্নবতণডত আয় “আতথডক পতরসম্পে হইদত আয়” িাদতর অধীন পতরগতণত হদব, যথা:- 
+(ক) 
+সরকাতর বা সরকার কতৃডক অনুদমাতেত তসতকউতরটিদজর সুে, মুনাফা বা বাট্টা; 
+(ি)  
+স্থানীয় কতৃডপে বা বকাম্পাতন কতৃডক ইসুযকৃত তর্দবঞ্চার বা অন্য বকাদনা প্রকাদরর 
+তসতকউতরটিদজর সুে, মুনাফা বা বাট্টা;  
+(গ) 
+তনম্নবতণডত উৎস হদত প্রাপ্য সুে বা মুনাফা, যথা: - 
+(অ) 
+বকাদনা ব্যাাংক বা আতথডক প্রততষ্ঠাদন রতেত আমানত, তাহা বয নাদমই অতভতহত 
+হউক না বকন; 
+(আ) 
+বকাদনা আতথডক পসরিম্পদ, পণ্য বা তস্কম; 
+(ঘ) 
+লভযাাংশ তদব, আতথডক পতরসম্পে হস্তান্তর হদত অতজডত মূলধতন আয় “আতথডক পতরসম্পে হইদত আয়” তহসাদব 
+পতরগতণত হদব না...
+2025-10-27 12:31:25,907 - INFO - 
+Document 3:
+2025-10-27 12:31:25,907 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:31:25,907 - INFO -    Page: 38
+2025-10-27 12:31:25,907 - INFO -    Language: bangla
+2025-10-27 12:31:25,907 - INFO -    Content Preview: 31 ষষ্ঠ তফতসল অাংশ ১ এর েফা (২০) অনুযায়ী বকাদনা স্বাভাতবক ব্যতির “কৃতষ হইদত আয়” িাদতর 
+আওতার্ভি অনতধক ৫ (পাঁি) লে টাকা পযডন্ত আয় করমুি থাকদব যতে উি ব্যতির কৃতষ হদত আয় 
+এবাং আতথডক পতরসম্পে হদত আয় ব্যতীত অন্য বকাদনা আয় না থাদক উোহরণ-৫  
+জনাব বসৌতমক এর একটি বর্ইতর ফামড রদয়দে ২০২৪-২৫ অথডবেদর তততন বর্ইতর ফামড হদত 
+১০,০০,০০০ টাকা নীট আয় প্রাপ্ত হদয়দেন এোড়া ব্যাাংক সুে বাবে তার আয় হদয়দে ৫,৫০,০০০ 
+টাকা উি সুদের তবপরীদত উৎদস কর কতডন করা হদয়দে ৫৫,০০০ টাকা মিশক্ষশে করদাতার কর 
+পসরগণনা হশব সনম্নরূপোঃ কর সনিডারণ: (ক) 
+কৃসষ হইশত আয়  
+(মযশহতু করদাতার কৃসষ হইশত আয় এবাং আসথডক 
+পসরিম্পদ হইশত আয় (ব্যাাংক সুদ) ব্যতীত অন্য 
+মকান আশয়র উৎি নাই, মিশহতু ষষ্ঠ তফসিশলর 
+অাংে ১ এর দফা ২০ অনুযায়ী ৫,০০,০০০ টাকা 
+আয় পসরগণনা হশত বাদ যাশব ) ৫,০০,০০০ 
+(খ) 
+আসথডক পসরিম্পদ হইশত আয় (ব্যাাংক সুদ) ৫,৫০,০০০...
+2025-10-27 12:31:25,907 - INFO - 
+Document 4:
+2025-10-27 12:31:25,907 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:31:25,907 - INFO -    Page: 35
+2025-10-27 12:31:25,907 - INFO -    Language: bangla
+2025-10-27 12:31:25,907 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 12:31:25,907 - INFO - 
+Document 5:
+2025-10-27 12:31:25,907 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:31:25,907 - INFO -    Page: 6
+2025-10-27 12:31:25,907 - INFO -    Language: bangla
+2025-10-27 12:31:25,907 - INFO -    Content Preview: ii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৮ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয পমরচামলত 
+বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র 
+িাধ্যর্ি অমজেত আর্য়র উপর করহার  
+১৬ 
+১৯ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমতর শতোিমল 
+১৬ 
+২০ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমত শর্তের মশমর্লতা, রমহতকরণ ও বহফাজত  
+১৭ 
+২১ 
+আয়কর আইন, ২০২৩ উর্েমিত কমতপয় শব্দ ও বরফার্রন্স সংর্শাধন 
+১৮ 
+২২ 
+আয়কর আইন, ২০২৩ এর ধারা ২ এ আনীত সংর্শাধনসমূহ 
+১৮ 
+২৩ 
+অনুর্িামদত আনুর্তামষক তহমিল” এিং “অনুর্িামদত িাধেকয তহমিল 
+িা বপনশন তহমিল” এর সংজ্ঞোয় সংরিোধন 
+১৮ 
+২৪ 
+“আমর্েক প্রমতষ্ঠান” এর সংজ্ঞা এর মির্লাপ 
+১৯ 
+২৫ 
+“আয়” এর সংজ্ঞোয় সংর্শাধন  
+১৯ 
+২৬ 
+“কমেচোরী” এর সংজ্ঞো প্ররতস্থোপন 
+১৯ 
+২৭ 
+“কর করমিনোর” এর সংজ্ঞো সংর োজন 
+২০ 
+২৮ 
+“কর রনধেোরণ” এর সংজ্ঞো সংর োজন 
+২০ 
+২৯ 
+“চােোডে বসর্ক্রোমর” এর সংজ্ঞো সংর োজন 
+২০ 
+৩০ 
+“দাতব্য উর্েশ্য” এর সংজ্ঞো সংরিোধন 
+২০ 
+৩১ 
+দোতব্য উরেরে প্ররতরিত সত্তোসমূরহর করোররোপণ সংক্রোন্ত স্পরিকরণ 
+২১ 
+৩২ 
+দোতব্য প্ররতিোরনর আইনোনুে সংজ্ঞো  
+২২ 
+৩৩ 
+প্ররতিোরনর স্বোভোরবক কো েক্ররমর পোিোপোরি দোতব্য কো েক্রম পররচোিনো 
+প্ররতিোনরক রক দোতব্য প্ররতিোন করর কতোরি...
+2025-10-27 12:31:25,907 - INFO - 
+Unique PDFs accessed: {'Nirdeshika_2025-26', 'আয়কর পরিপত্র'}
+2025-10-27 12:31:25,907 - INFO - Total documents retrieved: 5
+2025-10-27 12:31:25,907 - INFO - ==================================================
+2025-10-27 12:31:26,994 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:31:26,994 - INFO - Retrying request to /chat/completions in 0.498327 seconds
+2025-10-27 12:31:27,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:31:27,801 - INFO - Retrying request to /chat/completions in 0.811589 seconds
+2025-10-27 12:31:28,939 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:31:28,939 - ERROR - Critical error in chat handler for category 'TEST3': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\app.py", line 226, in chat_handler
+    result = rag_chain.invoke({
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 530, in invoke
+    return self._call_with_config(self._invoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2092, in _call_with_config
+    context.run(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\config.py", line 430, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 516, in _invoke
+    **self.mapper.invoke(
+      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 4001, in invoke
+    output = {key: future.result() for key, future in zip(steps, futures)}
+                   ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3985, in _invoke_step
+    return context.run(
+           ^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1213, in _generate
+    raise e
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1208, in _generate
+    raw_response = self.client.with_raw_response.create(**payload)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_legacy_response.py", line 364, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-27 12:31:28,939 - INFO - 127.0.0.1 - - [27/Oct/2025 12:31:28] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-10-27 12:36:59,062 - INFO - 127.0.0.1 - - [27/Oct/2025 12:36:59] "OPTIONS /categories HTTP/1.1" 200 -
+2025-10-27 12:36:59,065 - INFO - Request to create category: 'TEST4'
+2025-10-27 12:36:59,067 - INFO - 127.0.0.1 - - [27/Oct/2025 12:36:59] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-10-27 12:37:10,404 - INFO - Received 1 file(s) for category 'TEST4'.
+2025-10-27 12:37:10,411 - INFO - Processing 'আয়কর পরিপত্র' for category 'TEST4' with semantic chunking...
+2025-10-27 12:37:11,073 - INFO - PDF analysis - Avg text per page: 83 chars. Scanned: False
+2025-10-27 12:37:11,073 - INFO - Loading text-based PDF 'আয়কর পরিপত্র'...
+2025-10-27 12:37:11,384 - INFO - Created 291 chunks for আয়কর পরিপত্র. Language detected: Bangla
+2025-10-27 12:37:14,196 - INFO - Saved name mapping: 066b5524c165f0989fcea419c61b6548 -> আয়কর পরিপত্র
+2025-10-27 12:37:14,196 - INFO - Saved vector store for 'আয়কর পরিপত্র' (as 066b5524c165f0989fcea419c61b6548) with 291 semantic chunks.
+2025-10-27 12:37:14,196 - INFO - 127.0.0.1 - - [27/Oct/2025 12:37:14] "POST /upload HTTP/1.1" 200 -
+2025-10-27 12:37:56,593 - INFO - 127.0.0.1 - - [27/Oct/2025 12:37:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 12:37:56,596 - INFO - Found 9 vector store(s) for category 'TEST3'
+2025-10-27 12:37:56,596 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\066b5524c165f0989fcea419c61b6548
+2025-10-27 12:37:56,599 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 12:37:56,599 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\1935205827cc392cec6214681f5d5002
+2025-10-27 12:37:56,600 - INFO - Successfully loaded: বাংলা একাডেমির প্রমিত বানানের নিয়ম গুলো
+2025-10-27 12:37:56,600 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\3c95df5f0823a009b22e12076911f1d5
+2025-10-27 12:37:56,604 - INFO - Successfully loaded: Nirdeshika_2025-26
+2025-10-27 12:37:56,604 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\677568bf5ac9e59fa1e742b814330543
+2025-10-27 12:37:56,606 - INFO - Successfully loaded: search-engine-optimization-bangla-e-book-tutorial-training-in-bangladesh-seo
+2025-10-27 12:37:56,607 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\86985e105f79b95d6bc918fb45ec7727
+2025-10-27 12:37:56,608 - INFO - Successfully loaded: test4
+2025-10-27 12:37:56,608 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\8ad8757baa8564dc136c1e07507f4a98
+2025-10-27 12:37:56,609 - INFO - Successfully loaded: test3
+2025-10-27 12:37:56,609 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\ad0234829205b9033196ba818f7a872b
+2025-10-27 12:37:56,610 - INFO - Successfully loaded: test2
+2025-10-27 12:37:56,611 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\b7173242dd6a2c71c736474bf024d52d
+2025-10-27 12:37:56,616 - INFO - Successfully loaded: Cls-9-10 Bangla Sahitto Inner
+2025-10-27 12:37:56,616 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST3\f5512a773c2232bbb204246908b897fb
+2025-10-27 12:37:56,618 - INFO - Successfully loaded: html-publish
+2025-10-27 12:37:56,618 - INFO - Merging 8 additional vector store(s)...
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 1/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 2/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 3/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 4/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 5/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 6/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 7/8
+2025-10-27 12:37:56,618 - INFO - Successfully merged vector store 8/8
+2025-10-27 12:37:56,618 - INFO - All vector stores merged successfully.
+2025-10-27 12:37:58,815 - INFO - ==================================================
+2025-10-27 12:37:58,815 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 12:37:58,815 - INFO - ==================================================
+2025-10-27 12:37:58,815 - INFO - 
+Document 1:
+2025-10-27 12:37:58,815 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:37:58,815 - INFO -    Page: 41
+2025-10-27 12:37:58,815 - INFO -    Language: bangla
+2025-10-27 12:37:58,815 - INFO -    Content Preview: অনুযায়ী 
+করদাতার কৃসষ খাশত িবডশমাট আশয়র উপর অনসিক ৫,০০,০০০ টাকা মমাট আয় পসরগণনা হশত বাদ 
+যাশব ষষ্ঠ তফতসল অাংশ ১ এর দফা (২০ক) অনুযায়ী আয় ও কর পসরগণনাোঃ ষষ্ঠ তফতসল অাংশ ১ এর দফা (২০ক) অনুিাশর বকাদনা ব্যতির হাঁি-মুরগী, সিাংসড় ও মাশের হযািারী, 
+মপশলশটর্ মপাসি সফর্ উৎপাদন, সিাংসড় ও মাশের মপশলশটর্ সফর্ উৎপাদন, দুগ্ধজাত দ্রব্য উৎপাদন, 
+ব্যাঙ উৎপাদন খামার, বীজ সবপণন, মরেম গুটিশপাকা পালশনর খামার ইতযাসদ িাদতর আওতার্ভি 
+অনতধক ৫ (পাঁি) লে টাকা মমাট আয় পসরগণনা হশত বাদ যাশব উোহরণ-৮ 
+বমাতমনা িাতুদনর ২০২৪-২০২৫ আয়বদষড মাদের হযািারী বথদক ১০,০০,০০০ টাকার নীট আয় আদে একই বেদর তততন তার ওয়ান ব্যাাংক তপএলতসদত সঞ্চয়ী তহসাব হদত ব্যাাংক সুে বাবে ৫,৫০,০০০ টাকা 
+প্রাপ্ত হদয়দেন যার তবপরীদত ব্যাাংক ৫৫,০০০ টাকা উৎদস কর কতডন কদরদে...
+2025-10-27 12:37:58,815 - INFO - 
+Document 2:
+2025-10-27 12:37:58,815 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:37:58,815 - INFO -    Page: 52
+2025-10-27 12:37:58,815 - INFO -    Language: bangla
+2025-10-27 12:37:58,815 - INFO -    Content Preview: ৭৩ ধারা অনুযায়ী প্রশদয় 
+ কদরর পতরমাণ 
+৩০,২০,০০০ ৬ আতথডক পতরসম্পে হইদত আয় আয়কর আইন, ২০২৩ এর ধারা ৬২-৬৫ অনুযায়ী আতথডক পতরসম্পে হইদত আয় পতরগণনা করদত 
+হদব বকাদনা ব্যতির তনম্নবতণডত আয় “আতথডক পতরসম্পে হইদত আয়” িাদতর অধীন পতরগতণত হদব, যথা:- 
+(ক) 
+সরকাতর বা সরকার কতৃডক অনুদমাতেত তসতকউতরটিদজর সুে, মুনাফা বা বাট্টা; 
+(ি)  
+স্থানীয় কতৃডপে বা বকাম্পাতন কতৃডক ইসুযকৃত তর্দবঞ্চার বা অন্য বকাদনা প্রকাদরর 
+তসতকউতরটিদজর সুে, মুনাফা বা বাট্টা;  
+(গ) 
+তনম্নবতণডত উৎস হদত প্রাপ্য সুে বা মুনাফা, যথা: - 
+(অ) 
+বকাদনা ব্যাাংক বা আতথডক প্রততষ্ঠাদন রতেত আমানত, তাহা বয নাদমই অতভতহত 
+হউক না বকন; 
+(আ) 
+বকাদনা আতথডক পসরিম্পদ, পণ্য বা তস্কম; 
+(ঘ) 
+লভযাাংশ তদব, আতথডক পতরসম্পে হস্তান্তর হদত অতজডত মূলধতন আয় “আতথডক পতরসম্পে হইদত আয়” তহসাদব 
+পতরগতণত হদব না...
+2025-10-27 12:37:58,824 - INFO - 
+Document 3:
+2025-10-27 12:37:58,824 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 12:37:58,824 - INFO -    Page: 38
+2025-10-27 12:37:58,824 - INFO -    Language: bangla
+2025-10-27 12:37:58,825 - INFO -    Content Preview: 31 ষষ্ঠ তফতসল অাংশ ১ এর েফা (২০) অনুযায়ী বকাদনা স্বাভাতবক ব্যতির “কৃতষ হইদত আয়” িাদতর 
+আওতার্ভি অনতধক ৫ (পাঁি) লে টাকা পযডন্ত আয় করমুি থাকদব যতে উি ব্যতির কৃতষ হদত আয় 
+এবাং আতথডক পতরসম্পে হদত আয় ব্যতীত অন্য বকাদনা আয় না থাদক উোহরণ-৫  
+জনাব বসৌতমক এর একটি বর্ইতর ফামড রদয়দে ২০২৪-২৫ অথডবেদর তততন বর্ইতর ফামড হদত 
+১০,০০,০০০ টাকা নীট আয় প্রাপ্ত হদয়দেন এোড়া ব্যাাংক সুে বাবে তার আয় হদয়দে ৫,৫০,০০০ 
+টাকা উি সুদের তবপরীদত উৎদস কর কতডন করা হদয়দে ৫৫,০০০ টাকা মিশক্ষশে করদাতার কর 
+পসরগণনা হশব সনম্নরূপোঃ কর সনিডারণ: (ক) 
+কৃসষ হইশত আয়  
+(মযশহতু করদাতার কৃসষ হইশত আয় এবাং আসথডক 
+পসরিম্পদ হইশত আয় (ব্যাাংক সুদ) ব্যতীত অন্য 
+মকান আশয়র উৎি নাই, মিশহতু ষষ্ঠ তফসিশলর 
+অাংে ১ এর দফা ২০ অনুযায়ী ৫,০০,০০০ টাকা 
+আয় পসরগণনা হশত বাদ যাশব ) ৫,০০,০০০ 
+(খ) 
+আসথডক পসরিম্পদ হইশত আয় (ব্যাাংক সুদ) ৫,৫০,০০০...
+2025-10-27 12:37:58,825 - INFO - 
+Document 4:
+2025-10-27 12:37:58,825 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:37:58,825 - INFO -    Page: 35
+2025-10-27 12:37:58,825 - INFO -    Language: bangla
+2025-10-27 12:37:58,825 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 12:37:58,826 - INFO - 
+Document 5:
+2025-10-27 12:37:58,826 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:37:58,826 - INFO -    Page: 6
+2025-10-27 12:37:58,826 - INFO -    Language: bangla
+2025-10-27 12:37:58,826 - INFO -    Content Preview: ii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৮ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয পমরচামলত 
+বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র 
+িাধ্যর্ি অমজেত আর্য়র উপর করহার  
+১৬ 
+১৯ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমতর শতোিমল 
+১৬ 
+২০ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমত শর্তের মশমর্লতা, রমহতকরণ ও বহফাজত  
+১৭ 
+২১ 
+আয়কর আইন, ২০২৩ উর্েমিত কমতপয় শব্দ ও বরফার্রন্স সংর্শাধন 
+১৮ 
+২২ 
+আয়কর আইন, ২০২৩ এর ধারা ২ এ আনীত সংর্শাধনসমূহ 
+১৮ 
+২৩ 
+অনুর্িামদত আনুর্তামষক তহমিল” এিং “অনুর্িামদত িাধেকয তহমিল 
+িা বপনশন তহমিল” এর সংজ্ঞোয় সংরিোধন 
+১৮ 
+২৪ 
+“আমর্েক প্রমতষ্ঠান” এর সংজ্ঞা এর মির্লাপ 
+১৯ 
+২৫ 
+“আয়” এর সংজ্ঞোয় সংর্শাধন  
+১৯ 
+২৬ 
+“কমেচোরী” এর সংজ্ঞো প্ররতস্থোপন 
+১৯ 
+২৭ 
+“কর করমিনোর” এর সংজ্ঞো সংর োজন 
+২০ 
+২৮ 
+“কর রনধেোরণ” এর সংজ্ঞো সংর োজন 
+২০ 
+২৯ 
+“চােোডে বসর্ক্রোমর” এর সংজ্ঞো সংর োজন 
+২০ 
+৩০ 
+“দাতব্য উর্েশ্য” এর সংজ্ঞো সংরিোধন 
+২০ 
+৩১ 
+দোতব্য উরেরে প্ররতরিত সত্তোসমূরহর করোররোপণ সংক্রোন্ত স্পরিকরণ 
+২১ 
+৩২ 
+দোতব্য প্ররতিোরনর আইনোনুে সংজ্ঞো  
+২২ 
+৩৩ 
+প্ররতিোরনর স্বোভোরবক কো েক্ররমর পোিোপোরি দোতব্য কো েক্রম পররচোিনো 
+প্ররতিোনরক রক দোতব্য প্ররতিোন করর কতোরি...
+2025-10-27 12:37:58,827 - INFO - 
+Unique PDFs accessed: {'Nirdeshika_2025-26', 'আয়কর পরিপত্র'}
+2025-10-27 12:37:58,827 - INFO - Total documents retrieved: 5
+2025-10-27 12:37:58,827 - INFO - ==================================================
+2025-10-27 12:38:00,896 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:38:00,897 - INFO - Retrying request to /chat/completions in 0.427206 seconds
+2025-10-27 12:38:04,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:38:04,708 - INFO - Retrying request to /chat/completions in 0.910674 seconds
+2025-10-27 12:38:05,925 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:38:05,925 - ERROR - Critical error in chat handler for category 'TEST3': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\app.py", line 226, in chat_handler
+    result = rag_chain.invoke({
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 530, in invoke
+    return self._call_with_config(self._invoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2092, in _call_with_config
+    context.run(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\config.py", line 430, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 516, in _invoke
+    **self.mapper.invoke(
+      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 4001, in invoke
+    output = {key: future.result() for key, future in zip(steps, futures)}
+                   ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3985, in _invoke_step
+    return context.run(
+           ^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1213, in _generate
+    raise e
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1208, in _generate
+    raw_response = self.client.with_raw_response.create(**payload)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_legacy_response.py", line 364, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-27 12:38:05,933 - INFO - 127.0.0.1 - - [27/Oct/2025 12:38:05] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-10-27 12:38:43,711 - INFO - Request to fetch chat history for category 'TEST4'.
+2025-10-27 12:38:43,712 - INFO - Found 0 messages for category 'TEST4'.
+2025-10-27 12:38:43,712 - INFO - 127.0.0.1 - - [27/Oct/2025 12:38:43] "GET /chat/history/TEST4 HTTP/1.1" 200 -
+2025-10-27 12:38:43,717 - INFO - 127.0.0.1 - - [27/Oct/2025 12:38:43] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 12:38:43,720 - INFO - 127.0.0.1 - - [27/Oct/2025 12:38:43] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 12:38:46,494 - INFO - 127.0.0.1 - - [27/Oct/2025 12:38:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 12:38:46,497 - INFO - Found 1 vector store(s) for category 'TEST4'
+2025-10-27 12:38:46,497 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 12:38:46,529 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 12:38:46,529 - INFO - Using single vector store.
+2025-10-27 12:38:48,736 - INFO - ==================================================
+2025-10-27 12:38:48,736 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 12:38:48,736 - INFO - ==================================================
+2025-10-27 12:38:48,736 - INFO - 
+Document 1:
+2025-10-27 12:38:48,736 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:38:48,736 - INFO -    Page: 41
+2025-10-27 12:38:48,736 - INFO -    Language: bangla
+2025-10-27 12:38:48,736 - INFO -    Content Preview: ণজে বা ব্যবসায় প্রকৃথতর বকাদনা কাযডক্রদমর সাদি জথিত 
+বসদহতু তার সকল প্রকাদরর আয় স্বাভাথবক থনয়দম করদযাগ্য হদব ৬.৯.৬ দাতব্য উঙ্গেে কী এবং এর ব্যারপ্ত কত আয়কর আইন, ২০২৩ এর িারা ২(৪৩) এ োতব্য উদেে এর সাংজ্ঞা প্রোন করা 
+হদয়দে যা থনেরূপ:...
+2025-10-27 12:38:48,736 - INFO - 
+Document 2:
+2025-10-27 12:38:48,736 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:38:48,736 - INFO -    Page: 88
+2025-10-27 12:38:48,736 - INFO -    Language: bangla
+2025-10-27 12:38:48,736 - INFO -    Content Preview: সাঙ্গপঙ্গক্ষ বোট আয় 
+পররগর্িা হঙ্গত বাদ  াঙ্গব তঙ্গব, এরূপ অব্যাহরত এনথজও থবষয়ক বুেদরা 
+কর্তডক থনবথন্ধত ববসরকাথর প্রথতষ্ঠাদনর বেদত্র প্রদযাজে হদব না ৬.১০ “ফাইন্যান্স বকাম্পাথন” এর সংজ্ঞা সংঙ্গ াজি 
+আয়কর আইি, ২০২৩ এর িারা ২ এর দফা (৫৭ক) সংঙ্গ াজঙ্গির োধ্যঙ্গে “ফাইন্যান্স 
+বকাম্পাথন” এর সংজ্ঞা প্রদাি করা হঙ্গয়ঙ্গছ এই সংজ্ঞানু ায়ী “ফাইন্যান্স বকাম্পাথন” 
+অিড ফাইন্যান্স বকাম্পাথন আইন, ২০২৩ (২০২৩ সদনর ৫৯ নাং আইন) এর িারা ২ এর 
+েফা (১৭) বত সাংজ্ঞাথয়ত বকাদনা ফাইন্যান্স বকাম্পাথন আয়কর আইন, ২০২৩ এ পূদবড ব্যবহৃত “আথিডক প্রথতষ্ঠান” শব্দগুদলার পথরবদতড এখন 
+হদত “ফাইন্যান্স বকাম্পাথন” শব্দগুদলা ব্যবহৃত হদব...
+2025-10-27 12:38:48,736 - INFO - 
+Document 3:
+2025-10-27 12:38:48,742 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:38:48,742 - INFO -    Page: 35
+2025-10-27 12:38:48,742 - INFO -    Language: bangla
+2025-10-27 12:38:48,742 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 12:38:48,742 - INFO - 
+Document 4:
+2025-10-27 12:38:48,742 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:38:48,742 - INFO -    Page: 32
+2025-10-27 12:38:48,742 - INFO -    Language: bangla
+2025-10-27 12:38:48,742 - INFO -    Content Preview: াপন বদল উদেথখত) দ্বারা অিডননথতক 
+অঞ্চদল পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠান সমূহদক 
+থনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ অিডননথতক অঞ্চল আইন, ২০১০ (২০১০ সদনর ৪২ নাং আইন) এর িারা ৫ 
+এর অিীন বঘাথষত অিডননথতক অঞ্চদল পণ্য উৎপােন বা বসবা প্রোদনর লদেে 
+পথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি অিডননথতক অঞ্চদল পথরচাথলত ব্যবসাদয়র 
+মাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, ২য় ও ৩য় 
+বৎসদরর জন্য ১০০%, ৪িড বৎসদরর জন্য ৮০%, ৫ম বৎসদরর জন্য ৭০%, ৬ষ্ঠ 
+বৎসদরর জন্য ৬০%, ৭ম বৎসদরর জন্য ৫০%, ৮ম বৎসদরর জন্য ৪০%, ৯ম 
+বৎসদরর জন্য ৩০% এবাং ১০ম বৎসদরর জন্য ২০% হাদর প্রদেয় আয়কর হদত শতড 
+সাদপদে অব্যাহথত পাদব...
+2025-10-27 12:38:48,742 - INFO - 
+Document 5:
+2025-10-27 12:38:48,742 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 12:38:48,742 - INFO -    Page: 6
+2025-10-27 12:38:48,742 - INFO -    Language: bangla
+2025-10-27 12:38:48,742 - INFO -    Content Preview: ii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৮ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয পমরচামলত 
+বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র 
+িাধ্যর্ি অমজেত আর্য়র উপর করহার  
+১৬ 
+১৯ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমতর শতোিমল 
+১৬ 
+২০ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমত শর্তের মশমর্লতা, রমহতকরণ ও বহফাজত  
+১৭ 
+২১ 
+আয়কর আইন, ২০২৩ উর্েমিত কমতপয় শব্দ ও বরফার্রন্স সংর্শাধন 
+১৮ 
+২২ 
+আয়কর আইন, ২০২৩ এর ধারা ২ এ আনীত সংর্শাধনসমূহ 
+১৮ 
+২৩ 
+অনুর্িামদত আনুর্তামষক তহমিল” এিং “অনুর্িামদত িাধেকয তহমিল 
+িা বপনশন তহমিল” এর সংজ্ঞোয় সংরিোধন 
+১৮ 
+২৪ 
+“আমর্েক প্রমতষ্ঠান” এর সংজ্ঞা এর মির্লাপ 
+১৯ 
+২৫ 
+“আয়” এর সংজ্ঞোয় সংর্শাধন  
+১৯ 
+২৬ 
+“কমেচোরী” এর সংজ্ঞো প্ররতস্থোপন 
+১৯ 
+২৭ 
+“কর করমিনোর” এর সংজ্ঞো সংর োজন 
+২০ 
+২৮ 
+“কর রনধেোরণ” এর সংজ্ঞো সংর োজন 
+২০ 
+২৯ 
+“চােোডে বসর্ক্রোমর” এর সংজ্ঞো সংর োজন 
+২০ 
+৩০ 
+“দাতব্য উর্েশ্য” এর সংজ্ঞো সংরিোধন 
+২০ 
+৩১ 
+দোতব্য উরেরে প্ররতরিত সত্তোসমূরহর করোররোপণ সংক্রোন্ত স্পরিকরণ 
+২১ 
+৩২ 
+দোতব্য প্ররতিোরনর আইনোনুে সংজ্ঞো  
+২২ 
+৩৩ 
+প্ররতিোরনর স্বোভোরবক কো েক্ররমর পোিোপোরি দোতব্য কো েক্রম পররচোিনো 
+প্ররতিোনরক রক দোতব্য প্ররতিোন করর কতোরি...
+2025-10-27 12:38:48,744 - INFO - 
+Unique PDFs accessed: {'আয়কর পরিপত্র'}
+2025-10-27 12:38:48,744 - INFO - Total documents retrieved: 5
+2025-10-27 12:38:48,744 - INFO - ==================================================
+2025-10-27 12:38:49,109 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:38:49,122 - INFO - Retrying request to /chat/completions in 0.477275 seconds
+2025-10-27 12:38:49,890 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:38:49,890 - INFO - Retrying request to /chat/completions in 0.843393 seconds
+2025-10-27 12:38:51,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-27 12:38:51,030 - ERROR - Critical error in chat handler for category 'TEST4': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\app.py", line 226, in chat_handler
+    result = rag_chain.invoke({
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 530, in invoke
+    return self._call_with_config(self._invoke, input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2092, in _call_with_config
+    context.run(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\config.py", line 430, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 516, in _invoke
+    **self.mapper.invoke(
+      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 4001, in invoke
+    output = {key: future.result() for key, future in zip(steps, futures)}
+                   ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3985, in _invoke_step
+    return context.run(
+           ^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3246, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1213, in _generate
+    raise e
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1208, in _generate
+    raw_response = self.client.with_raw_response.create(**payload)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_legacy_response.py", line 364, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BS 23- Desktop-00014\Documents\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-27 12:38:51,030 - INFO - 127.0.0.1 - - [27/Oct/2025 12:38:51] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-10-27 13:00:45,700 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 13:00:45,718 - INFO - Starting Flask application
+2025-10-27 13:00:45,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.224.223:5000
+2025-10-27 13:00:45,804 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 13:00:45,813 - INFO -  * Restarting with stat
+2025-10-27 13:00:59,949 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 13:00:59,949 - INFO - Starting Flask application
+2025-10-27 13:00:59,967 - WARNING -  * Debugger is active!
+2025-10-27 13:00:59,967 - INFO -  * Debugger PIN: 440-985-645
+2025-10-27 13:01:11,859 - INFO - Request to fetch chat history for category 'TEST4'.
+2025-10-27 13:01:11,859 - INFO - Found 1 messages for category 'TEST4'.
+2025-10-27 13:01:11,859 - INFO - 127.0.0.1 - - [27/Oct/2025 13:01:11] "GET /chat/history/TEST4 HTTP/1.1" 200 -
+2025-10-27 13:01:11,866 - INFO - 127.0.0.1 - - [27/Oct/2025 13:01:11] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 13:01:11,869 - INFO - 127.0.0.1 - - [27/Oct/2025 13:01:11] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 13:01:45,349 - INFO - 127.0.0.1 - - [27/Oct/2025 13:01:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 13:01:45,351 - INFO - Found 1 vector store(s) for category 'TEST4'
+2025-10-27 13:01:45,351 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 13:01:45,366 - INFO - Loading faiss with AVX2 support.
+2025-10-27 13:01:45,401 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-27 13:01:45,467 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 13:01:45,467 - INFO - Using single vector store.
+2025-10-27 13:01:47,897 - INFO - ==================================================
+2025-10-27 13:01:47,897 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 13:01:47,897 - INFO - ==================================================
+2025-10-27 13:01:47,897 - INFO - 
+Document 1:
+2025-10-27 13:01:47,897 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:01:47,898 - INFO -    Page: 41
+2025-10-27 13:01:47,898 - INFO -    Language: bangla
+2025-10-27 13:01:47,898 - INFO -    Content Preview: ণজে বা ব্যবসায় প্রকৃথতর বকাদনা কাযডক্রদমর সাদি জথিত 
+বসদহতু তার সকল প্রকাদরর আয় স্বাভাথবক থনয়দম করদযাগ্য হদব ৬.৯.৬ দাতব্য উঙ্গেে কী এবং এর ব্যারপ্ত কত আয়কর আইন, ২০২৩ এর িারা ২(৪৩) এ োতব্য উদেে এর সাংজ্ঞা প্রোন করা 
+হদয়দে যা থনেরূপ:...
+2025-10-27 13:01:47,899 - INFO - 
+Document 2:
+2025-10-27 13:01:47,899 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:01:47,899 - INFO -    Page: 88
+2025-10-27 13:01:47,899 - INFO -    Language: bangla
+2025-10-27 13:01:47,899 - INFO -    Content Preview: সাঙ্গপঙ্গক্ষ বোট আয় 
+পররগর্িা হঙ্গত বাদ  াঙ্গব তঙ্গব, এরূপ অব্যাহরত এনথজও থবষয়ক বুেদরা 
+কর্তডক থনবথন্ধত ববসরকাথর প্রথতষ্ঠাদনর বেদত্র প্রদযাজে হদব না ৬.১০ “ফাইন্যান্স বকাম্পাথন” এর সংজ্ঞা সংঙ্গ াজি 
+আয়কর আইি, ২০২৩ এর িারা ২ এর দফা (৫৭ক) সংঙ্গ াজঙ্গির োধ্যঙ্গে “ফাইন্যান্স 
+বকাম্পাথন” এর সংজ্ঞা প্রদাি করা হঙ্গয়ঙ্গছ এই সংজ্ঞানু ায়ী “ফাইন্যান্স বকাম্পাথন” 
+অিড ফাইন্যান্স বকাম্পাথন আইন, ২০২৩ (২০২৩ সদনর ৫৯ নাং আইন) এর িারা ২ এর 
+েফা (১৭) বত সাংজ্ঞাথয়ত বকাদনা ফাইন্যান্স বকাম্পাথন আয়কর আইন, ২০২৩ এ পূদবড ব্যবহৃত “আথিডক প্রথতষ্ঠান” শব্দগুদলার পথরবদতড এখন 
+হদত “ফাইন্যান্স বকাম্পাথন” শব্দগুদলা ব্যবহৃত হদব...
+2025-10-27 13:01:47,899 - INFO - 
+Document 3:
+2025-10-27 13:01:47,899 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:01:47,899 - INFO -    Page: 35
+2025-10-27 13:01:47,899 - INFO -    Language: bangla
+2025-10-27 13:01:47,899 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 13:01:47,899 - INFO - 
+Document 4:
+2025-10-27 13:01:47,899 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:01:47,899 - INFO -    Page: 32
+2025-10-27 13:01:47,899 - INFO -    Language: bangla
+2025-10-27 13:01:47,899 - INFO -    Content Preview: াপন বদল উদেথখত) দ্বারা অিডননথতক 
+অঞ্চদল পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠান সমূহদক 
+থনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ অিডননথতক অঞ্চল আইন, ২০১০ (২০১০ সদনর ৪২ নাং আইন) এর িারা ৫ 
+এর অিীন বঘাথষত অিডননথতক অঞ্চদল পণ্য উৎপােন বা বসবা প্রোদনর লদেে 
+পথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি অিডননথতক অঞ্চদল পথরচাথলত ব্যবসাদয়র 
+মাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, ২য় ও ৩য় 
+বৎসদরর জন্য ১০০%, ৪িড বৎসদরর জন্য ৮০%, ৫ম বৎসদরর জন্য ৭০%, ৬ষ্ঠ 
+বৎসদরর জন্য ৬০%, ৭ম বৎসদরর জন্য ৫০%, ৮ম বৎসদরর জন্য ৪০%, ৯ম 
+বৎসদরর জন্য ৩০% এবাং ১০ম বৎসদরর জন্য ২০% হাদর প্রদেয় আয়কর হদত শতড 
+সাদপদে অব্যাহথত পাদব...
+2025-10-27 13:01:47,899 - INFO - 
+Document 5:
+2025-10-27 13:01:47,899 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:01:47,899 - INFO -    Page: 6
+2025-10-27 13:01:47,899 - INFO -    Language: bangla
+2025-10-27 13:01:47,899 - INFO -    Content Preview: ii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৮ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয পমরচামলত 
+বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র 
+িাধ্যর্ি অমজেত আর্য়র উপর করহার  
+১৬ 
+১৯ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমতর শতোিমল 
+১৬ 
+২০ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমত শর্তের মশমর্লতা, রমহতকরণ ও বহফাজত  
+১৭ 
+২১ 
+আয়কর আইন, ২০২৩ উর্েমিত কমতপয় শব্দ ও বরফার্রন্স সংর্শাধন 
+১৮ 
+২২ 
+আয়কর আইন, ২০২৩ এর ধারা ২ এ আনীত সংর্শাধনসমূহ 
+১৮ 
+২৩ 
+অনুর্িামদত আনুর্তামষক তহমিল” এিং “অনুর্িামদত িাধেকয তহমিল 
+িা বপনশন তহমিল” এর সংজ্ঞোয় সংরিোধন 
+১৮ 
+২৪ 
+“আমর্েক প্রমতষ্ঠান” এর সংজ্ঞা এর মির্লাপ 
+১৯ 
+২৫ 
+“আয়” এর সংজ্ঞোয় সংর্শাধন  
+১৯ 
+২৬ 
+“কমেচোরী” এর সংজ্ঞো প্ররতস্থোপন 
+১৯ 
+২৭ 
+“কর করমিনোর” এর সংজ্ঞো সংর োজন 
+২০ 
+২৮ 
+“কর রনধেোরণ” এর সংজ্ঞো সংর োজন 
+২০ 
+২৯ 
+“চােোডে বসর্ক্রোমর” এর সংজ্ঞো সংর োজন 
+২০ 
+৩০ 
+“দাতব্য উর্েশ্য” এর সংজ্ঞো সংরিোধন 
+২০ 
+৩১ 
+দোতব্য উরেরে প্ররতরিত সত্তোসমূরহর করোররোপণ সংক্রোন্ত স্পরিকরণ 
+২১ 
+৩২ 
+দোতব্য প্ররতিোরনর আইনোনুে সংজ্ঞো  
+২২ 
+৩৩ 
+প্ররতিোরনর স্বোভোরবক কো েক্ররমর পোিোপোরি দোতব্য কো েক্রম পররচোিনো 
+প্ররতিোনরক রক দোতব্য প্ররতিোন করর কতোরি...
+2025-10-27 13:01:47,899 - INFO - 
+Unique PDFs accessed: {'আয়কর পরিপত্র'}
+2025-10-27 13:01:47,899 - INFO - Total documents retrieved: 5
+2025-10-27 13:01:47,899 - INFO - ==================================================
+2025-10-27 13:01:50,895 - INFO - Responded to question in 'TEST4'. Cited 1 sources: [4]
+2025-10-27 13:01:50,895 - INFO - Answer: ২০১০ সালের ৪২ নং আইনের ধারা ৫ এর অধীনে ঘোষিত অর্থনৈতিক অঞ্চলে পণ্য উৎপাদন বা সেবা প্রদানের লক্ষ্যে প... | Sources: [{'source': 'আয়কর পরিপত্র', 'page': 32, 'text': 'াপন বদল উদেথখত) দ্বারা অিডননথতক \nঅঞ্চদল পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠান সমূহদক \nথনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ অিডননথতক অঞ্চল আইন, ২০১০ (২০১০ সদনর ৪২ নাং আইন) এর িারা ৫ \nএর অিীন বঘাথষত অিডননথতক অঞ্চদল পণ্য উৎপােন বা বসবা প্রোদনর লদেে \nপথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি অিডননথতক অঞ্চদল পথরচাথলত ব্যবসাদয়র \nমাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, ২য় ও ৩য় \nবৎসদরর জন্য ১০০%, ৪িড বৎসদরর জন্য ৮০%, ৫ম বৎসদরর জন্য ৭০%, ৬ষ্ঠ \nবৎসদরর জন্য ৬০%, ৭ম বৎসদরর জন্য ৫০%, ৮ম বৎসদরর জন্য ৪০%, ৯ম \nবৎসদরর জন্য ৩০% এবাং ১০ম বৎসদরর জন্য ২০% হাদর প্রদেয় আয়কর হদত শতড \nসাদপদে অব্যাহথত পাদব', 'citation_number': 4}]
+2025-10-27 13:01:50,927 - INFO - 127.0.0.1 - - [27/Oct/2025 13:01:50] "POST /chat HTTP/1.1" 200 -
+2025-10-27 13:02:00,304 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 13:02:00,305 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 13:02:00,320 - INFO - 127.0.0.1 - - [27/Oct/2025 13:02:00] "GET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1" 200 -
+2025-10-27 13:02:13,120 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 13:02:13,120 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 13:02:13,120 - INFO - 127.0.0.1 - - [27/Oct/2025 13:02:13] "[36mGET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1[0m" 304 -
+2025-10-27 13:07:23,631 - INFO - 127.0.0.1 - - [27/Oct/2025 13:07:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 13:07:23,634 - INFO - Found 1 vector store(s) for category 'TEST4'
+2025-10-27 13:07:23,634 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 13:07:23,634 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 13:07:23,634 - INFO - Using single vector store.
+2025-10-27 13:07:25,828 - INFO - ==================================================
+2025-10-27 13:07:25,828 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 13:07:25,828 - INFO - ==================================================
+2025-10-27 13:07:25,828 - INFO - 
+Document 1:
+2025-10-27 13:07:25,828 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:07:25,828 - INFO -    Page: 35
+2025-10-27 13:07:25,830 - INFO -    Language: bangla
+2025-10-27 13:07:25,830 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 13:07:25,830 - INFO - 
+Document 2:
+2025-10-27 13:07:25,830 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:07:25,830 - INFO -    Page: 41
+2025-10-27 13:07:25,830 - INFO -    Language: bangla
+2025-10-27 13:07:25,830 - INFO -    Content Preview: ণজে বা ব্যবসায় প্রকৃথতর বকাদনা কাযডক্রদমর সাদি জথিত 
+বসদহতু তার সকল প্রকাদরর আয় স্বাভাথবক থনয়দম করদযাগ্য হদব ৬.৯.৬ দাতব্য উঙ্গেে কী এবং এর ব্যারপ্ত কত আয়কর আইন, ২০২৩ এর িারা ২(৪৩) এ োতব্য উদেে এর সাংজ্ঞা প্রোন করা 
+হদয়দে যা থনেরূপ:...
+2025-10-27 13:07:25,830 - INFO - 
+Document 3:
+2025-10-27 13:07:25,830 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:07:25,830 - INFO -    Page: 34
+2025-10-27 13:07:25,830 - INFO -    Language: bangla
+2025-10-27 13:07:25,830 - INFO -    Content Preview: 16 | আয়কর পররপত্র ২০২৪- ২০২৫ ৪.২  হাই-দটক পাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠাদনর 
+বকবল উি হাই-দটক পাদকড পথরচাথলত ব্যবসাদয়র মাধ্যদম অথজডত আদয়র উপর 
+করহার 
+জাতীয় রাজস্ব ববাদর্ডর প্রজ্ঞাপন নাং এস, আর, ও নাং ২৪৫-আইন/আয়কর-৩৯/২০২৪, 
+তাথরখ: ২৭ জুন ২০২৪ থিস্টাব্দ (অতঃপর এ প্রজ্ঞাপন বদল উদেথখত) দ্বারা হাই-দটক 
+পাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠানসমূহদক 
+থনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে...
+2025-10-27 13:07:25,832 - INFO - 
+Document 4:
+2025-10-27 13:07:25,832 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:07:25,832 - INFO -    Page: 34
+2025-10-27 13:07:25,832 - INFO -    Language: bangla
+2025-10-27 13:07:25,832 - INFO -    Content Preview: জ্ঞাপন বদল উদেথখত) দ্বারা হাই-দটক 
+পাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠানসমূহদক 
+থনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ হাই-বটক পাকড কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-বটক পাদকড পণ্য উৎপােন বা বসবা প্রোদনর 
+লদেে পথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি হাই-দটক পাদকড পথরচাথলত 
+ব্যবসাদয়র মাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, 
+২য়, ৩য়, ৪িড, ৫ম, ৬ষ্ঠ ও ৭ম বৎসদরর জন্য ১০০% এবাং ৮ম, ৯ম ও ১০ম বৎসদরর 
+জন্য ৭০% হাদর প্রদেয় আয়কর হদত শতড সাদপদে অব্যাহথত প্রোন করা হদয়দে...
+2025-10-27 13:07:25,832 - INFO - 
+Document 5:
+2025-10-27 13:07:25,832 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 13:07:25,832 - INFO -    Page: 6
+2025-10-27 13:07:25,832 - INFO -    Language: bangla
+2025-10-27 13:07:25,834 - INFO -    Content Preview: ii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৮ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয পমরচামলত 
+বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র 
+িাধ্যর্ি অমজেত আর্য়র উপর করহার  
+১৬ 
+১৯ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমতর শতোিমল 
+১৬ 
+২০ 
+হাই-র্েক পার্কে পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর 
+কর অব্যাহমত শর্তের মশমর্লতা, রমহতকরণ ও বহফাজত  
+১৭ 
+২১ 
+আয়কর আইন, ২০২৩ উর্েমিত কমতপয় শব্দ ও বরফার্রন্স সংর্শাধন 
+১৮ 
+২২ 
+আয়কর আইন, ২০২৩ এর ধারা ২ এ আনীত সংর্শাধনসমূহ 
+১৮ 
+২৩ 
+অনুর্িামদত আনুর্তামষক তহমিল” এিং “অনুর্িামদত িাধেকয তহমিল 
+িা বপনশন তহমিল” এর সংজ্ঞোয় সংরিোধন 
+১৮ 
+২৪ 
+“আমর্েক প্রমতষ্ঠান” এর সংজ্ঞা এর মির্লাপ 
+১৯ 
+২৫ 
+“আয়” এর সংজ্ঞোয় সংর্শাধন  
+১৯ 
+২৬ 
+“কমেচোরী” এর সংজ্ঞো প্ররতস্থোপন 
+১৯ 
+২৭ 
+“কর করমিনোর” এর সংজ্ঞো সংর োজন 
+২০ 
+২৮ 
+“কর রনধেোরণ” এর সংজ্ঞো সংর োজন 
+২০ 
+২৯ 
+“চােোডে বসর্ক্রোমর” এর সংজ্ঞো সংর োজন 
+২০ 
+৩০ 
+“দাতব্য উর্েশ্য” এর সংজ্ঞো সংরিোধন 
+২০ 
+৩১ 
+দোতব্য উরেরে প্ররতরিত সত্তোসমূরহর করোররোপণ সংক্রোন্ত স্পরিকরণ 
+২১ 
+৩২ 
+দোতব্য প্ররতিোরনর আইনোনুে সংজ্ঞো  
+২২ 
+৩৩ 
+প্ররতিোরনর স্বোভোরবক কো েক্ররমর পোিোপোরি দোতব্য কো েক্রম পররচোিনো 
+প্ররতিোনরক রক দোতব্য প্ররতিোন করর কতোরি...
+2025-10-27 13:07:25,834 - INFO - 
+Unique PDFs accessed: {'আয়কর পরিপত্র'}
+2025-10-27 13:07:25,834 - INFO - Total documents retrieved: 5
+2025-10-27 13:07:25,834 - INFO - ==================================================
+2025-10-27 13:07:28,776 - INFO - Responded to question in 'TEST4'. Cited 1 sources: [4]
+2025-10-27 13:07:28,776 - INFO - Answer: ২০১০ সালের আইনের ২২ ধারা অনুযায়ী ঘোষিত হাই-টেক পার্কে পণ্য উৎপাদন বা সেবা প্রদানের লক্ষ্যে পরিচালিত ... | Sources: [{'source': 'আয়কর পরিপত্র', 'page': 34, 'text': 'জ্ঞাপন বদল উদেথখত) দ্বারা হাই-দটক \nপাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠানসমূহদক \nথনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ হাই-বটক পাকড কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা \n২২ এর থবিান অনুযায়ী বঘাথষত হাই-বটক পাদকড পণ্য উৎপােন বা বসবা প্রোদনর \nলদেে পথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি হাই-দটক পাদকড পথরচাথলত \nব্যবসাদয়র মাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, \n২য়, ৩য়, ৪িড, ৫ম, ৬ষ্ঠ ও ৭ম বৎসদরর জন্য ১০০% এবাং ৮ম, ৯ম ও ১০ম বৎসদরর \nজন্য ৭০% হাদর প্রদেয় আয়কর হদত শতড সাদপদে অব্যাহথত প্রোন করা হদয়দে', 'citation_number': 4}]
+2025-10-27 13:07:28,811 - INFO - 127.0.0.1 - - [27/Oct/2025 13:07:28] "POST /chat HTTP/1.1" 200 -
+2025-10-27 13:07:35,939 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 13:07:35,939 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 13:07:35,941 - INFO - 127.0.0.1 - - [27/Oct/2025 13:07:35] "[36mGET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1[0m" 304 -
+2025-10-27 13:15:10,472 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 13:15:10,472 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 13:15:10,473 - INFO - 127.0.0.1 - - [27/Oct/2025 13:15:10] "[36mGET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1[0m" 304 -
+2025-10-27 15:10:43,828 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 15:10:43,828 - INFO - Starting Flask application
+2025-10-27 15:10:43,848 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.224.223:5000
+2025-10-27 15:10:43,848 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 15:10:43,849 - INFO -  * Restarting with stat
+2025-10-27 15:10:57,514 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 15:10:57,514 - INFO - Starting Flask application
+2025-10-27 15:10:57,530 - WARNING -  * Debugger is active!
+2025-10-27 15:10:57,535 - INFO -  * Debugger PIN: 440-985-645
+2025-10-27 15:11:44,577 - INFO - Request to fetch chat history for category 'TEST4'.
+2025-10-27 15:11:44,578 - INFO - Found 5 messages for category 'TEST4'.
+2025-10-27 15:11:44,578 - INFO - 127.0.0.1 - - [27/Oct/2025 15:11:44] "GET /chat/history/TEST4 HTTP/1.1" 200 -
+2025-10-27 15:11:44,582 - INFO - 127.0.0.1 - - [27/Oct/2025 15:11:44] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 15:11:44,582 - INFO - 127.0.0.1 - - [27/Oct/2025 15:11:44] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 15:11:51,586 - INFO - 127.0.0.1 - - [27/Oct/2025 15:11:51] "OPTIONS /categories/TEST4/documents/আয়কর%20পরিপত্র.pdf HTTP/1.1" 200 -
+2025-10-27 15:11:51,588 - INFO - Request to delete document 'আয়কর পরিপত্র.pdf' from category 'TEST4'.
+2025-10-27 15:11:51,589 - INFO - Successfully deleted PDF file: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 15:11:51,590 - WARNING - Vector store not found, could not delete: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\আয়কর পরিপত্র
+2025-10-27 15:11:51,590 - INFO - 127.0.0.1 - - [27/Oct/2025 15:11:51] "DELETE /categories/TEST4/documents/আয়কর%20পরিপত্র.pdf HTTP/1.1" 200 -
+2025-10-27 16:36:17,308 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 16:36:17,324 - INFO - Starting Flask application
+2025-10-27 16:36:17,340 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.224.223:5000
+2025-10-27 16:36:17,340 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 16:36:17,341 - INFO -  * Restarting with stat
+2025-10-27 16:36:31,621 - INFO - Database 'chat_history.db' initialized and table is ready.
+2025-10-27 16:36:31,637 - INFO - Starting Flask application
+2025-10-27 16:36:31,644 - WARNING -  * Debugger is active!
+2025-10-27 16:36:31,644 - INFO -  * Debugger PIN: 440-985-645
+2025-10-27 16:36:54,003 - INFO - Received 1 file(s) for category 'TEST4'.
+2025-10-27 16:36:54,015 - INFO - Vector store for 'আয়কর পরিপত্র' already exists. Skipping.
+2025-10-27 16:36:54,015 - INFO - 127.0.0.1 - - [27/Oct/2025 16:36:54] "POST /upload HTTP/1.1" 200 -
+2025-10-27 16:37:16,937 - INFO - 127.0.0.1 - - [27/Oct/2025 16:37:16] "OPTIONS /categories/TEST4/documents/আয়কর%20পরিপত্র.pdf HTTP/1.1" 200 -
+2025-10-27 16:37:16,937 - INFO - Request to delete document 'আয়কর পরিপত্র.pdf' from category 'TEST4'.
+2025-10-27 16:37:16,937 - INFO - Successfully deleted PDF file: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 16:37:16,937 - INFO - Successfully deleted vector store: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 16:37:16,937 - INFO - Removed mapping: 066b5524c165f0989fcea419c61b6548 -> আয়কর পরিপত্র
+2025-10-27 16:37:16,937 - INFO - Successfully updated name mapping file
+2025-10-27 16:37:16,944 - INFO - 127.0.0.1 - - [27/Oct/2025 16:37:16] "DELETE /categories/TEST4/documents/আয়কর%20পরিপত্র.pdf HTTP/1.1" 200 -
+2025-10-27 16:37:47,564 - INFO - Request to fetch chat history for category 'TEST4'.
+2025-10-27 16:37:47,564 - INFO - Found 5 messages for category 'TEST4'.
+2025-10-27 16:37:47,564 - INFO - 127.0.0.1 - - [27/Oct/2025 16:37:47] "GET /chat/history/TEST4 HTTP/1.1" 200 -
+2025-10-27 16:37:47,573 - INFO - 127.0.0.1 - - [27/Oct/2025 16:37:47] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 16:37:47,576 - INFO - 127.0.0.1 - - [27/Oct/2025 16:37:47] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 16:38:15,555 - INFO - Received 1 file(s) for category 'TEST4'.
+2025-10-27 16:38:15,555 - INFO - Processing 'আয়কর পরিপত্র' for category 'TEST4' with semantic chunking...
+2025-10-27 16:38:16,013 - INFO - PDF analysis - Avg text per page: 83 chars. Scanned: False
+2025-10-27 16:38:16,013 - INFO - Loading text-based PDF 'আয়কর পরিপত্র'...
+2025-10-27 16:38:16,300 - INFO - Created 291 chunks for আয়কর পরিপত্র. Language detected: Bangla
+2025-10-27 16:38:19,235 - INFO - Loading faiss with AVX2 support.
+2025-10-27 16:38:19,262 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-27 16:38:19,282 - INFO - Saved name mapping: 066b5524c165f0989fcea419c61b6548 -> আয়কর পরিপত্র
+2025-10-27 16:38:19,286 - INFO - Saved vector store for 'আয়কর পরিপত্র' (as 066b5524c165f0989fcea419c61b6548) with 291 semantic chunks.
+2025-10-27 16:38:19,287 - INFO - 127.0.0.1 - - [27/Oct/2025 16:38:19] "POST /upload HTTP/1.1" 200 -
+2025-10-27 16:38:24,551 - INFO - Request to fetch chat history for category 'TEST4'.
+2025-10-27 16:38:24,551 - INFO - Found 5 messages for category 'TEST4'.
+2025-10-27 16:38:24,551 - INFO - 127.0.0.1 - - [27/Oct/2025 16:38:24] "GET /chat/history/TEST4 HTTP/1.1" 200 -
+2025-10-27 16:38:24,556 - INFO - 127.0.0.1 - - [27/Oct/2025 16:38:24] "OPTIONS /chat/start HTTP/1.1" 200 -
+2025-10-27 16:38:24,561 - INFO - 127.0.0.1 - - [27/Oct/2025 16:38:24] "POST /chat/start HTTP/1.1" 200 -
+2025-10-27 16:38:45,600 - INFO - 127.0.0.1 - - [27/Oct/2025 16:38:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 16:38:45,604 - INFO - Found 1 vector store(s) for category 'TEST4'
+2025-10-27 16:38:45,604 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 16:38:45,628 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 16:38:45,628 - INFO - Using single vector store.
+2025-10-27 16:38:48,572 - INFO - ==================================================
+2025-10-27 16:38:48,572 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 16:38:48,572 - INFO - ==================================================
+2025-10-27 16:38:48,573 - INFO - 
+Document 1:
+2025-10-27 16:38:48,573 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:38:48,573 - INFO -    Page: 41
+2025-10-27 16:38:48,573 - INFO -    Language: bangla
+2025-10-27 16:38:48,573 - INFO -    Content Preview: ণজে বা ব্যবসায় প্রকৃথতর বকাদনা কাযডক্রদমর সাদি জথিত 
+বসদহতু তার সকল প্রকাদরর আয় স্বাভাথবক থনয়দম করদযাগ্য হদব ৬.৯.৬ দাতব্য উঙ্গেে কী এবং এর ব্যারপ্ত কত আয়কর আইন, ২০২৩ এর িারা ২(৪৩) এ োতব্য উদেে এর সাংজ্ঞা প্রোন করা 
+হদয়দে যা থনেরূপ:...
+2025-10-27 16:38:48,573 - INFO - 
+Document 2:
+2025-10-27 16:38:48,573 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:38:48,574 - INFO -    Page: 35
+2025-10-27 16:38:48,574 - INFO -    Language: bangla
+2025-10-27 16:38:48,574 - INFO -    Content Preview: কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-ঙ্গটক পাঙ্গকথ রিল্প বা রিল্প ইউরিট 
+স্থাপঙ্গির অনুেরত প্রাপ্ত হঙ্গয়ঙ্গছ ৫ আয়কর আইি, ২০২৩ উদেথখত কথতপয় শব্দ ও বরফাদরন্স সাংদশািন অর্থ আইি, ২০২৩ এর োধ্যঙ্গে আয়কর আইন, ২০২৩ এ রিেবরর্থত িব্দ ও বরফাঙ্গরন্সসমূহ 
+সংঙ্গিািি করা হঙ্গয়ঙ্গছ,  র্া-...
+2025-10-27 16:38:48,574 - INFO - 
+Document 3:
+2025-10-27 16:38:48,574 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:38:48,574 - INFO -    Page: 17
+2025-10-27 16:38:48,575 - INFO -    Language: bangla
+2025-10-27 16:38:48,575 - INFO -    Content Preview: xiii | আয়কর পররপত্র ২০২৪- ২০২৫ ক্ররমক 
+নং 
+রবষয় 
+পৃিো 
+পমরমশষ্ট-৫ 
+হাই-র্েক পার্কে পণ্য উৎপাদন িা বসিা প্রদার্নর লর্ক্ষয 
+পমরচামলত বকার্না প্রমতষ্ঠার্নর বকিল উি হাই-র্েক পার্কে 
+পমরচামলত ব্যিসার্য়র িাধ্যর্ি অমজেত আর্য়র উপর প্রর্দয় 
+আয়কর হর্ত অব্যাহমত  
+২৭৩ 
+পমরমশষ্ট-৬ 
+এস, আর, ও নং ২৪৬-আইন/আয়কর-৪০/২০২৪, তামরি: ২৭ 
+জুন, ২০২৪ রিিোব্দ এর মোধ্যরম এস, আর, ও নং ৩২৫-
+আইন/আয়কর/২০২১, তামরি: ১৯ অর্টাির, ২০২১ মিস্টাব্দ 
+সংর্শাধন এিং এস, আর, ও নং ১৫৮-আইন/আয়কর-
+৩৩/২০২৪, তামরি: ২৯ বি, ২০২৪ মিস্টাব্দ রমহতকরণ 
+২৭৬ 
+পমরমশষ্ট-৭ 
+এস, আর, ও নং ২৪৭-আইন/আয়কর-৪১/২০২৪, তামরি: ২৭ 
+জুন, ২০২৪ রিিোব্দ এর মোধ্যরম এস, আর, ও নং-২০৮-
+আইন/আয়কর-০৩/২০২৩, তামরি: ২৬ জুন ২০২৩ মিষ্টাব্দ এর 
+সংরিোধন 
+২৭৭ 
+পমরমশষ্ট-০৮ 
+পোটজোত দ্রব্য উৎপোদরন রনরয়োরজত ককোরনো রিল্প প্ররতিোরনর 
+ককবি উি রিল্প হরত অরজেত আরয়র কেরত্র ২০২৩-২৪, ২০২৪-
+২৫ এবং ২০২৫-২০২৬ করবরষের জন্য প্রর োজয আয়কররর হোর 
+হ্রোসকরণ 
+২৭৯ 
+পমরমশষ্ট-০৯ 
+অরনবোসীর অনুকূরি উদ্ভূত ঋরণর সুদ পরররিোরধর কেরত্র উৎরস 
+কর কতেন ৩১ রেরসম্বর, ২০২৪ রিিোব্দ তোররখ প েন্ত সির্য়র জন্য 
+অব্যাহমত  
+২৮০ 
+পমরমশষ্ট-১০ 
+এস, আর, ও, নং ০১-আইন/আয়কর-২৩/২০২৩, তামরি: ০৩ 
+জোনুয়োরর, ২০২৪ মিষ্টাব্দ এর িাধ্যর্ি জারীকৃত প্রজ্ঞাপন 
+এস.আর.ও. নং-৩২৩-আইন/আয়কর-১৯/২০২৩, তোররখ: ৩০ 
+নর্ভম্বর, ২০২৩ মিস্টাব্দ সংরিোধন 
+২৮২ 
+পমরমশষ্ট-১১ 
+তোজউেীন আহমদ এে সসয়দো কজোহরো তোজউেীন কমরমোররয়োি 
+ফোউরেিন কক আয়কর প্রদোন হরত অব্যোহরত প্রদোন  
+২৮৩ 
+পমরমশষ্ট-১২ 
+সম্পমি অমধগ্রহণ এর েরতপূরণ হর্ত অমজেত মূলধমন আর্য়র 
+মিপরীর্ত উদ্ভূত অমতমরি বকার্না করদায় পমরর্শাধ হর্ত 
+অব্যাহমত  
+২৮৪ 
+পমরমশষ্ট-১৩ 
+পণ্য রপ্তামন হর্ত অমজেত আর্য়র উপর আয়কর অব্যাহমত িা 
+করহার হ্রাসকরণ 
+২৮৫ 
+পমরমশষ্ট-১৪ 
+এরসট ম্যোরনজরমন্ট ককোম্পোরনসমূহ কতৃেক ককবি রমউচ্যযয়োি 
+ফোে ব্যবস্থোপনো রফ এর করহোর হ্রোসকরণ 
+২৮৭...
+2025-10-27 16:38:48,575 - INFO - 
+Document 4:
+2025-10-27 16:38:48,576 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:38:48,576 - INFO -    Page: 34
+2025-10-27 16:38:48,576 - INFO -    Language: bangla
+2025-10-27 16:38:48,576 - INFO -    Content Preview: জ্ঞাপন বদল উদেথখত) দ্বারা হাই-দটক 
+পাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠানসমূহদক 
+থনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ হাই-বটক পাকড কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা 
+২২ এর থবিান অনুযায়ী বঘাথষত হাই-বটক পাদকড পণ্য উৎপােন বা বসবা প্রোদনর 
+লদেে পথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি হাই-দটক পাদকড পথরচাথলত 
+ব্যবসাদয়র মাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, 
+২য়, ৩য়, ৪িড, ৫ম, ৬ষ্ঠ ও ৭ম বৎসদরর জন্য ১০০% এবাং ৮ম, ৯ম ও ১০ম বৎসদরর 
+জন্য ৭০% হাদর প্রদেয় আয়কর হদত শতড সাদপদে অব্যাহথত প্রোন করা হদয়দে...
+2025-10-27 16:38:48,576 - INFO - 
+Document 5:
+2025-10-27 16:38:48,576 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:38:48,577 - INFO -    Page: 34
+2025-10-27 16:38:48,577 - INFO -    Language: bangla
+2025-10-27 16:38:48,577 - INFO -    Content Preview: 16 | আয়কর পররপত্র ২০২৪- ২০২৫ ৪.২  হাই-দটক পাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠাদনর 
+বকবল উি হাই-দটক পাদকড পথরচাথলত ব্যবসাদয়র মাধ্যদম অথজডত আদয়র উপর 
+করহার 
+জাতীয় রাজস্ব ববাদর্ডর প্রজ্ঞাপন নাং এস, আর, ও নাং ২৪৫-আইন/আয়কর-৩৯/২০২৪, 
+তাথরখ: ২৭ জুন ২০২৪ থিস্টাব্দ (অতঃপর এ প্রজ্ঞাপন বদল উদেথখত) দ্বারা হাই-দটক 
+পাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠানসমূহদক 
+থনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে...
+2025-10-27 16:38:48,577 - INFO - 
+Unique PDFs accessed: {'আয়কর পরিপত্র'}
+2025-10-27 16:38:48,577 - INFO - Total documents retrieved: 5
+2025-10-27 16:38:48,577 - INFO - ==================================================
+2025-10-27 16:38:50,391 - INFO - Responded to question in 'TEST4'. Cited 1 sources: [4]
+2025-10-27 16:38:50,391 - INFO - Answer: ২০১০ সালের আইনের ২২ ধারার অধীনে, হাই-টেক পার্কে পণ্য উৎপাদন বা পরিষেবা প্রদানের উদ্দেশ্যে পরিচালিত ক... | Sources: [{'source': 'আয়কর পরিপত্র', 'page': 34, 'text': 'জ্ঞাপন বদল উদেথখত) দ্বারা হাই-দটক \nপাদকড পণ্য উৎপােন বা বসবা প্রোদনর লদেে পথরচাথলত বকাদনা প্রথতষ্ঠানসমূহদক \nথনেবথণডতভাদব কর অব্যাহথত প্রোন করা হদয়দে বাাংলাদেশ হাই-বটক পাকড কর্তডপে আইন, ২০১০ (২০১০ সদনর ৮নাং আইন) এর িারা \n২২ এর থবিান অনুযায়ী বঘাথষত হাই-বটক পাদকড পণ্য উৎপােন বা বসবা প্রোদনর \nলদেে পথরচাথলত বকাদনা প্রথতষ্ঠাদনর বকবল উি হাই-দটক পাদকড পথরচাথলত \nব্যবসাদয়র মাধ্যদম অথজডত আদয়র উপর ব্যবসাথয়ক কাযডক্রম শুরুর তাথরখ হদত ১ম, \n২য়, ৩য়, ৪িড, ৫ম, ৬ষ্ঠ ও ৭ম বৎসদরর জন্য ১০০% এবাং ৮ম, ৯ম ও ১০ম বৎসদরর \nজন্য ৭০% হাদর প্রদেয় আয়কর হদত শতড সাদপদে অব্যাহথত প্রোন করা হদয়দে', 'citation_number': 4}]
+2025-10-27 16:38:50,424 - INFO - 127.0.0.1 - - [27/Oct/2025 16:38:50] "POST /chat HTTP/1.1" 200 -
+2025-10-27 16:39:24,049 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 16:39:24,051 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 16:39:24,052 - INFO - 127.0.0.1 - - [27/Oct/2025 16:39:24] "GET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1" 200 -
+2025-10-27 16:40:25,121 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 16:40:25,122 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 16:40:25,123 - INFO - 127.0.0.1 - - [27/Oct/2025 16:40:25] "[36mGET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1[0m" 304 -
+2025-10-27 16:45:24,550 - INFO - 127.0.0.1 - - [27/Oct/2025 16:45:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 16:45:24,553 - INFO - Found 1 vector store(s) for category 'TEST4'
+2025-10-27 16:45:24,553 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 16:45:24,561 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 16:45:24,561 - INFO - Using single vector store.
+2025-10-27 16:45:28,069 - INFO - ==================================================
+2025-10-27 16:45:28,069 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 16:45:28,069 - INFO - ==================================================
+2025-10-27 16:45:28,069 - INFO - 
+Document 1:
+2025-10-27 16:45:28,069 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:45:28,069 - INFO -    Page: 37
+2025-10-27 16:45:28,069 - INFO -    Language: bangla
+2025-10-27 16:45:28,069 - INFO -    Content Preview: 19 | আয়কর পররপত্র ২০২৪- ২০২৫ ৬.২  “আথিডক প্রথতষ্ঠান” এর সাংজ্ঞা এর থবদলাপ আয়কর আইি, ২০২৩ এর িারা ২ এর েফা (১১) বত “আথিডক প্রথতষ্ঠান” এর সাংজ্ঞা 
+প্রোন করা হদয়থেল উি সাংজ্ঞাদত “আথিডক প্রথতষ্ঠান” অিড আথিডক প্রথতষ্ঠান আইন, 
+১৯৯৩ (১৯৯৩ সদনর ২৭ নাং আইন) এ সাংজ্ঞাথয়ত আথিডক প্রথতষ্ঠান বিা হঙ্গয়রছি আথিডক প্রথতষ্ঠান আইন, ১৯৯৩ (১৯৯৩ সদনর ২৭ নাং আইন) রবলুরপ্তর ফঙ্গি উি 
+সংজ্ঞা অর্থ আইি, ২০২৪ এর োধ্যঙ্গে রবলুপ্ত করা হয় ৬.৩ “আয়” এর সংজ্ঞায় সাংদশািন আয়কর আইি, ২০২৩ এর িারা ২ এর েফা (১৩) বত “আয়” এর সাংজ্ঞা রদয়দে অিড 
+আইন, ২০২৪ এর মাধ্যদম এই েফায় সাংদশািনীর মাধ্যদম থনেবথণডত উপাদয় অথজডত 
+পথরসম্পে ব্যতীত অন্য বযদকাদনাভাদব অথজডত পথরসম্পে “আয়” অদিড অন্তভুডি হদব, 
+যিা;- (অ)  প্রাকৃরতকভ্াঙ্গব অরজথত পররসম্পদ;...
+2025-10-27 16:45:28,069 - INFO - 
+Document 2:
+2025-10-27 16:45:28,069 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:45:28,069 - INFO -    Page: 38
+2025-10-27 16:45:28,069 - INFO -    Language: bangla
+2025-10-27 16:45:28,069 - INFO -    Content Preview: র রিিথারর্” অর্থ এই 
+আইঙ্গির অিীি ব ঙ্গকাঙ্গিা প্রকাঙ্গরর কর রিিথারর্ এবং পুিঃকর রিিথারর্, অরতররি 
+কর রিিথারর্, অরিকতর কর রিিথারর্ও এর অন্তর্ভথি হঙ্গব ৬.৭ “চাটডার্ড বসদক্রটাথর” এর সংজ্ঞা সংঙ্গ াজি 
+আয়কর আইি, ২০২৩ এর িারা ২ এর দফা (৩৬ক) সংঙ্গ াজঙ্গির োধ্যঙ্গে “চাটডার্ড 
+বসদক্রটাথর” এর সংজ্ঞা প্রদাি করা হঙ্গয়ঙ্গছ এই সংজ্ঞানু ায়ী “চাটডার্ড বসদক্রটাথর” অিড 
+চাটডার্ড বসদক্রটারীজ আইন, ২০১০ (২০১০ সদনর ২৫ নাং আইন) এর িারা ২ এর েফা 
+(৬) এ সাংজ্ঞাথয়ত বকাদনা চাটডার্ড বসদক্রটাথর ৬.৮ “োতব্য উদেে” এর সংজ্ঞায় সংঙ্গিািি 
+আয়কর আইি, ২০২৩ এর িারা ২ এর দফা (৪৩) এ সংঙ্গিািি আিীত হঙ্গয়ঙ্গছ...
+2025-10-27 16:45:28,069 - INFO - 
+Document 3:
+2025-10-27 16:45:28,069 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:45:28,069 - INFO -    Page: 13
+2025-10-27 16:45:28,069 - INFO -    Language: bangla
+2025-10-27 16:45:28,069 - INFO -    Content Preview: ix | আয়কর পররপত্র ২০২৪- ২০২৫ ক্রমিক 
+নং 
+মিষয় 
+পৃষ্ঠা 
+১৪৫ 
+অমগ্রি কর পমরর্শার্ধর বক্ষর্ত্র ঘােমত র্ামকর্ল উহার উপর করদাতা 
+কতৃেক সুদ প্রর্দয় সংক্রাি ধারা ১৬২ এর সংর্শাধন 
+১২৭ 
+১৪৬ 
+নূযনতি কর সংক্রাি ধারা ১৬৩ এর সংর্শাধন 
+১২৭ 
+১৪৭ 
+নূযনতি কর সংক্রাি ধারা ১৬৩ এর উপ-ধোরো (৩) এর দফো (ক) এর 
+রবরিোপ ও ন্যযনতম কররর আওতো বৃরদ্ধ 
+১২৭ 
+১৪৮ 
+নূযনতি কর সংক্রাি ধারা ১৬৩ এর উপ-ধোরো (৩) এর দফো (খ) এর 
+সংরিোধন ও ন্যযনতম কররর আওতো বৃরদ্ধ 
+১২৮ 
+১৪৯ 
+নূযনতি কর সংক্রাি ধারা ১৬৩ এর উপ-ধোরো ৫ এর সংরিোধন ও 
+ন্যযনতম কররর আওতো বৃরদ্ধ 
+১২৮ 
+১৫০ 
+নূযনতি কর সংক্রাি ধারা ১৬৩ এর উপ-ধোরো (৬) এর সংরিোধন 
+১২৯ 
+১৫১ 
+নূযনতি কর সংক্রাি ধারা ১৬৩ এর উপ-ধোরো (৭) এর প্ররতস্থোপন 
+১২৯ 
+১৫২ 
+উৎর্স অরধক বো কম কমতেত িা সংগৃহীত কর নূযনতি কর্রর মভমি না 
+হওয়া সংক্রাি ধারা ১৬৪ এর সংর্শাধন 
+১৩১ 
+১৫৩ 
+মরোনে সংক্রাি ধারা ১৬৫ এর সংর্শাধন 
+১৩১ 
+১৫৪ 
+পমরসম্পদ ও দার্য়র মিিরণী দামিল সংক্রাি ধারা ১৬৭ এর সংর্শাধন 
+১৩১ 
+১৫৫ 
+জীিন াপন সংমিষ্ট ব্যয় মিিরণী দামিল সংক্রাি ধারা ১৬৮ এর 
+সংর্শাধন 
+১৩২ 
+১৫৬ 
+মরোনে দামির্লর সাধারণ মনয়িািমল সংক্রাি ধারা ১৬৯ এর সংর্শাধন 
+১৩২ 
+১৫৭ 
+স্বমনধোরণী পিমতর্ত মরোনে দামিল সংক্রাি ধারা ১৭০ এর প্রমতস্থ্াপন 
+১৩২ 
+১৫৮ 
+মরোনে দামির্লর সিয় ও আয়কর পমরর্শাধ সংক্রাি ধারা ১৭১ এর 
+প্রমতস্থ্াপন 
+১৩২ 
+১৫৯ 
+করমদিস পরিতী সির্য় মরোনে দামির্লর বক্ষর্ত্র কর পমরগণনা সংক্রাি 
+ধারা ১৭৪ এর প্রমতস্থ্াপন 
+১৩৩ 
+১৬০ 
+সাধারণ মরোনে ও সংরিোরধত ররটোনে সংক্রোন্ত রবরিষ রবধোনোবরি সংক্রাি 
+ধারা ১৭৫ এর প্রমতস্থ্াপন 
+১৩৪ 
+১৬১ 
+অসম্পূণে মরোনে দামির্লর ফলাফল সংক্রাি ধারা ১৭৬ এর সংর্শাধন 
+১৩৫ 
+১৬২ 
+উৎর্স কর্রর মরোনে সংক্রাি ধারা ১৭৭ এর সংর্শাধন 
+১৩৭ 
+১৬৩ 
+মহসাি, দমললামদ ইতযামদ উপস্থ্াপন সংক্রাি ধারা ১৭৯ এর সংর্শাধন 
+১৩৭ 
+১৬৪ 
+স্বমনধোরণী পিমতর্ত কর মনধোরণ ও মরোনে দামিল সংক্রাি ধারা ১৮০ 
+এর সংর্শাধন 
+১৩৮ 
+১৬৫ 
+অমডে সংক্রাি ধারা ১৮২ এর সংর্শাধন 
+১৩৮...
+2025-10-27 16:45:28,075 - INFO - 
+Document 4:
+2025-10-27 16:45:28,075 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:45:28,075 - INFO -    Page: 93
+2025-10-27 16:45:28,075 - INFO -    Language: bangla
+2025-10-27 16:45:28,075 - INFO -    Content Preview: 75 | আয়কর পররপত্র ২০২৪- ২০২৫ ১৩.৫ “গৃহসম্পরত্ত” কী আয়কর আইি, ২০২৩ এর িারা ৩৫ এ গৃহসম্পরত্তঙ্গক রিেবরর্থতভ্াঙ্গব সংজ্ঞারয়ত করা 
+হঙ্গয়ঙ্গছ,  র্া:- 
+“গৃহসম্পথত্ত” অদিড বযদকাদনা গৃহসম্পথত্ত, ভবন বা োলানসহ থনেবথণডত পথরসম্পেও 
+এর অন্তভুডি হদব, যিা- 
+(ক)  আসবাবপত্র, থফক্সার, থফটিাংস যাহা উি গৃদহর অথবদেদ্য অাংশ; এবাং  
+(খ)  গৃহসম্পথত্ত বয ভূথমর উপর স্থাথপত উি ভূথম:  
+তদব, রিেবরর্থত ভ্বি বা দািাি এর অন্তর্ভথি হঙ্গব িা,  র্া:- 
+(অ)  বকাদনা ভবন যা সম্পূণডরূদপ গুোম থহসাদব ব্যবহৃত হয়, বা  
+(আ) বকাদনা কারখানা ভবন যাহা প্ল্োট ও বমথশনাথর ভািা প্রোদনর অথবদেদ্য 
+অাংশ থহসাদব ভািা প্রোন করা হয় ১৩.৫ গৃহসম্পরত্ত ব্যতীত অন্যান্য সম্পরত্ত কী...
+2025-10-27 16:45:28,075 - INFO - 
+Document 5:
+2025-10-27 16:45:28,075 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:45:28,075 - INFO -    Page: 91
+2025-10-27 16:45:28,077 - INFO -    Language: bangla
+2025-10-27 16:45:28,077 - INFO -    Content Preview: ্রাইবুেনাদলর প্রথসদর্ট থনদয়াগ করা যাদব ১২ আয় একীভূতকরণ সাংক্রান্ত িারা ৩১ এর সাংদশািন 
+আয়কর আইন, ২০২৩ এর িারা ৩১ এর উপ-িারা (২) রবঙ্গিাপ করা হঙ্গয়ঙ্গছ এর ফঙ্গি ফােথ 
+বা ব্যরিসংঙ্গঘর কর পরবতী আয় ফাঙ্গেথর অংিীদারগর্ বা ব্যরিসংঙ্গঘর সদস্যঙ্গদর আঙ্গয় 
+িারা ১৮৭ অনু ায়ী আনুপারতক হাঙ্গর একীভূত করঙ্গত হঙ্গব ১৩ ভ্াড়া হঙ্গত আয় রিিথারর্ সংক্রান্ত অংি ৫ এর তৃতীয় অধ্যাঙ্গয়র প্ররতস্থাপি 
+আয়কর আইন, ২০২৩ এর অংি ৫ এর তৃতীয় অধ্যায় এর পররবঙ্গতথ নূতি তৃতীয় অধ্যায় 
+প্ররতস্থাপি করা হঙ্গয়ঙ্গছ এর োধ্যঙ্গে ভ্াড়া হঙ্গত আয় পররগর্িার সম্পূর্থ নূতি একটি রভ্রত্ত 
+রচিা করা হঙ্গয়ঙ্গছ ১৩.১ ভ্াড়া হইঙ্গত আয় কী নূতি প্রবরতথত িারা ৩৬ অনু ায়ী, বকাদনা ব্যথির বকাদনা সম্পথত্তর ভািা প্রোন হদত 
+অথজডত বমাট ভািামূল্য হদত অংি ৫ এর তৃতীয় অধ্যাদয় বথণডত সবডদমাট...
+2025-10-27 16:45:28,077 - INFO - 
+Unique PDFs accessed: {'আয়কর পরিপত্র'}
+2025-10-27 16:45:28,077 - INFO - Total documents retrieved: 5
+2025-10-27 16:45:28,077 - INFO - ==================================================
+2025-10-27 16:45:29,803 - INFO - Responded to question in 'TEST4'. Cited 1 sources: [1]
+2025-10-27 16:45:29,803 - INFO - Answer: আয়কর পরিপত্র ২০২৪-২০২৫ এ আর্থিক প্রতিষ্ঠানের সংজ্ঞা দেওয়া হয়েছে। এই সংজ্ঞাটি আয়কর আইন, ২০২৩ এর ধারা ... | Sources: [{'source': 'আয়কর পরিপত্র', 'page': 37, 'text': '19 | আয়কর পররপত্র ২০২৪- ২০২৫ ৬.২  “আথিডক প্রথতষ্ঠান” এর সাংজ্ঞা এর থবদলাপ আয়কর আইি, ২০২৩ এর িারা ২ এর েফা (১১) বত “আথিডক প্রথতষ্ঠান” এর সাংজ্ঞা \nপ্রোন করা হদয়থেল উি সাংজ্ঞাদত “আথিডক প্রথতষ্ঠান” অিড আথিডক প্রথতষ্ঠান আইন, \n১৯৯৩ (১৯৯৩ সদনর ২৭ নাং আইন) এ সাংজ্ঞাথয়ত আথিডক প্রথতষ্ঠান বিা হঙ্গয়রছি আথিডক প্রথতষ্ঠান আইন, ১৯৯৩ (১৯৯৩ সদনর ২৭ নাং আইন) রবলুরপ্তর ফঙ্গি উি \nসংজ্ঞা অর্থ আইি, ২০২৪ এর োধ্যঙ্গে রবলুপ্ত করা হয় ৬.৩ “আয়” এর সংজ্ঞায় সাংদশািন আয়কর আইি, ২০২৩ এর িারা ২ এর েফা (১৩) বত “আয়” এর সাংজ্ঞা রদয়দে অিড \nআইন, ২০২৪ এর মাধ্যদম এই েফায় সাংদশািনীর মাধ্যদম থনেবথণডত উপাদয় অথজডত \nপথরসম্পে ব্যতীত অন্য বযদকাদনাভাদব অথজডত পথরসম্পে “আয়” অদিড অন্তভুডি হদব, \nযিা;- (অ)  প্রাকৃরতকভ্াঙ্গব অরজথত পররসম্পদ;', 'citation_number': 1}]
+2025-10-27 16:45:29,849 - INFO - 127.0.0.1 - - [27/Oct/2025 16:45:29] "POST /chat HTTP/1.1" 200 -
+2025-10-27 16:45:50,691 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 16:45:50,692 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 16:45:50,693 - INFO - 127.0.0.1 - - [27/Oct/2025 16:45:50] "[36mGET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1[0m" 304 -
+2025-10-27 16:47:17,624 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\আয়কর পরিপত্র.pdf
+2025-10-27 16:47:17,624 - INFO - Successfully serving PDF: আয়কর পরিপত্র
+2025-10-27 16:47:17,625 - INFO - 127.0.0.1 - - [27/Oct/2025 16:47:17] "[36mGET /pdf/TEST4/আয়কর%20পরিপত্র HTTP/1.1[0m" 304 -
+2025-10-27 16:48:14,558 - INFO - Received 1 file(s) for category 'TEST4'.
+2025-10-27 16:48:14,580 - INFO - Processing 'Nirdeshika_2025-26' for category 'TEST4' with semantic chunking...
+2025-10-27 16:48:15,198 - INFO - PDF analysis - Avg text per page: 942 chars. Scanned: False
+2025-10-27 16:48:15,198 - INFO - Loading text-based PDF 'Nirdeshika_2025-26'...
+2025-10-27 16:48:15,792 - INFO - Created 355 chunks for Nirdeshika_2025-26. Language detected: Bangla
+2025-10-27 16:48:19,190 - INFO - Saved name mapping: 3c95df5f0823a009b22e12076911f1d5 -> Nirdeshika_2025-26
+2025-10-27 16:48:19,190 - INFO - Saved vector store for 'Nirdeshika_2025-26' (as 3c95df5f0823a009b22e12076911f1d5) with 355 semantic chunks.
+2025-10-27 16:48:19,190 - INFO - 127.0.0.1 - - [27/Oct/2025 16:48:19] "POST /upload HTTP/1.1" 200 -
+2025-10-27 16:50:04,977 - INFO - 127.0.0.1 - - [27/Oct/2025 16:50:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 16:50:04,980 - INFO - Found 2 vector store(s) for category 'TEST4'
+2025-10-27 16:50:04,981 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 16:50:04,987 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 16:50:04,987 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\3c95df5f0823a009b22e12076911f1d5
+2025-10-27 16:50:05,015 - INFO - Successfully loaded: Nirdeshika_2025-26
+2025-10-27 16:50:05,016 - INFO - Merging 1 additional vector store(s)...
+2025-10-27 16:50:05,017 - INFO - Successfully merged vector store 1/1
+2025-10-27 16:50:05,017 - INFO - All vector stores merged successfully.
+2025-10-27 16:50:08,446 - INFO - ==================================================
+2025-10-27 16:50:08,446 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 16:50:08,446 - INFO - ==================================================
+2025-10-27 16:50:08,446 - INFO - 
+Document 1:
+2025-10-27 16:50:08,446 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 16:50:08,446 - INFO -    Page: 131
+2025-10-27 16:50:08,446 - INFO -    Language: bangla
+2025-10-27 16:50:08,446 - INFO -    Content Preview: এনকোনি ইনপুট মদনয় মিটানন দামিল কিনে পানিন আোি প্রনয়াজনন িিনয় িিনয় েথ্য ইনপুট মদনয় রিভ িািনে পািনেন 
+এেং িিয় মননয় পিীো মনিীো কনি িােমিট কিনে পািনেন িােমিট কিা হনল রেনকাননা িিনয় প্রামি স্বীকািপত্র, মিটানন, 
+িাটিনম নকট, চালান র্াউননলার্ ও মপ্রন্ট কিনে পািনেন ১৪. 
+আিাি উৎনি কি ও অমগ্রি কি প্রদান কিা আনছ আমি মক অনলাইনন মিটানন দামিল কিনে পািে উত্তিঃ হযাঁ, পািনেন Tax & Payment রিকশনন আপমন ইনোিনে উৎনি কমেনে কি, অমগ্রি প্রদত্ত কি, পূেনেেী 
+েছনি পমিনশামধে অমেমিক্ত কি এেং মিটানননি িানথ পমিনশামধে কনিি েথ্য প্রদান কনি আপনাি কি পমিনশানধি েথ্য 
+আপনর্ট কনি মিটনান দামিল কিনে পািনেন ১২৪...
+2025-10-27 16:50:08,446 - INFO - 
+Document 2:
+2025-10-27 16:50:08,446 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 16:50:08,446 - INFO -    Page: 129
+2025-10-27 16:50:08,446 - INFO -    Language: bangla
+2025-10-27 16:50:08,446 - INFO -    Content Preview: ্রিাণ ও 
+েথ্য রদনি িঠিকভানে ইনপুট রদওয়া োঞ্ছনীয় ২. 
+e-Return মিনেনি িাইন-ইন কিে কীভানে উত্তিঃ এই মিনেনি িাইন-ইন কিাি জন্য টিআইএন ও পািওয়ার্ন প্রনয়াজন আপমন www.etaxnbr.gov.bd 
+ওনয়েিাইনট রিমজনেশন কিাি িিয় মননজি পািওয়ার্ন ঠিক কনি মননেন এিপি রেনকান িিয় টিআইএন ও পািওয়ার্ন 
+ব্যেহাি কনি িাইন-ইন কিনে পািনেন এছাড়া আপনাি প্রনয়াজনন পািওয়ার্ন পমিেেনন কিনে পািনেন ৩. 
+e-Return মিনেনি রিমজনেশননি জন্য কী প্রনয়াজন উত্তিঃ e-Return মিনেনি রিমজনেশননি জন্য আপনাি টিআইএন ও জাতীয় পমিচয়পত্র ব্যােহাি পূেনক োনয়ানিমিক 
+পদ্ধমেনে মনেমিে মিিকার্ন িম্বমলে রিাোইল র ান নম্বি প্রনয়াজন আপনাি ব্যেহৃে রিাোইল র ানটি আপনাি নানি 
+রিমজোর্ন মকনা ো োচাইনয়ি জন্য *১৬০০১# র্ায়াল করুন ৪. 
+e-Return মিনেনি রিমজনেশননি পদ্ধমে কী...
+2025-10-27 16:50:08,446 - INFO - 
+Document 3:
+2025-10-27 16:50:08,446 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 16:50:08,446 - INFO -    Page: 88
+2025-10-27 16:50:08,446 - INFO -    Language: bangla
+2025-10-27 16:50:08,446 - INFO -    Content Preview: ,০০০ স্বীকৃত ভতবে তহতবদল আয়বদষড তততন মাশি ৫,০০০ টাকা িাঁো তেদয়দেন তার তনদয়াগকতডাও 
+সমপতরমাণ িাঁো জমা তেদয়দেন জনাব হাসান প্রাইদভট প্রযাকটিস কদর থাদকন তততন প্রতততেন গদড় ১০ জন নতুন বরাগী ও ৩০ জন 
+পুরাতন বরাগী বেদিন নতুন বরাগীর তফ ৫০০ টাকা ও পুরাতন বরাগীর তফ ৩০০ টাকা তততন বেদর 
+৩০০ তেন বরাগী বেদিন করোতা বকামনা িাতাপত্র সাংরেণ কদরন না সতসন আয়বশষড একটি ব্যাাংশকর সর্শপাসজট মপনেন সস্কশম মাসিক ১১,০০০ টাকা সর্সপএি সহশিশব 
+জমা প্রদান কশরশেন সতসন স্টক এক্সশিশঞ্জর তাসলকাভ্যি মকাম্পাসনর মেয়ার ক্রশয় ১০,০০,০০০ টাকা 
+সবসনশয়াগ কশরশেন এোড়া, সতসন ৫,০০,০০০ টাকার িঞ্চয়পে ক্রয় কশরশেন ২০২৫-২০২৬ করবদষড জনাব জনাব হাসান আল মামুদনর বমাট আয় ও আয়কর পতরগণনা নীদি 
+বেিাদনা হল: 
+ববতন আয়: 
+বাতষডক মূল ববতন ৬,০০,০০০...
+2025-10-27 16:50:08,446 - INFO - 
+Document 4:
+2025-10-27 16:50:08,446 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 16:50:08,451 - INFO -    Page: 131
+2025-10-27 16:50:08,452 - INFO -    Language: bangla
+2025-10-27 16:50:08,452 - INFO -    Content Preview: আয়, আমথনক পমিিম্পদ হনে আয় এেং অন্যান্য উৎি হনে আয় iii) Rebate- রিয়ােনোগ্য মেমননয়াগ রেিন জীেন মেিা, মর্মপএি, িঞ্চয়পত্র, মজমপএ  ইেযামদি েথ্য উনেি করুন iv) Expenditure- আপনাি োৎিমিক ব্যয় িংক্রান্ত েথ্য প্রদান করুন v) Asset & liabilities- িম্পদ এেং দায় িম্পনকন মেস্তামিে েথ্য রেিন: ব্যেিাি মূলধন, অ-কৃমষ িম্পমত্ত, কৃমষ 
+িম্পমত্ত, আমথনক িম্পদ (রশয়াি, মর্নেঞ্চাি, রিমভংি িাটিনম নকট, এ মর্আি, মর্মপএি), রিাটি গামড়, রিানা, হীিা, 
+গৃহস্থালীি মজমনিপত্র, নগদ ইেযামদ এছাড়া ঋনণি েথ্যও প্রদান করুন vi) Tax & payment- এই রিকশনন মিনেি আপনানক আপনাি রিাট আনয়ি মেেিণ, ট্যাক্স কমম্পউনটশননি মেেিণ, 
+প্রনদয় কনিি পমিিাণ রদিানে এই রিকশন রথনক আপমন ইনোিনে উৎনি কমেনে কি, অমগ্রি প্রদত্ত কি, পূেনেেী েছনি 
+পমিনশামধে অমেমিক্ত কি এেং মিটানননি িানথ পমিনশামধে কনিি েথ্য প্রদান কনি আপনাি কি পমিনশানধি েথ্য আপনর্ট 
+কিনে পািনেন...
+2025-10-27 16:50:08,452 - INFO - 
+Document 5:
+2025-10-27 16:50:08,452 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 16:50:08,452 - INFO -    Page: 88
+2025-10-27 16:50:08,452 - INFO -    Language: bangla
+2025-10-27 16:50:08,452 - INFO -    Content Preview: 70 | আয়কর পররপত্র ২০২৪- ২০২৫ (ই)  এই রকম পুঞ্জীভূত বা আলাো কথরয়া রাখা অিড সরকাথর 
+থসথকউথরটিদত অিবা এই উদেদে সরকার কর্তডক অনুদমাথেত অন্য 
+বযদকাদনা থসথকউথরটিদত থবথনদয়াগ করা হয়, অিবা র্াকঘর সঞ্চয় 
+ব্যাাংদকর বযদকাদনা থহসাদব জমা রাখা হয়, অিবা এইরূপ বকাদনা 
+তফথসথল ব্যাাংদকর থহসাদব জমা রাখা হয় যাহার ৫১% (একান্ন 
+শতাাংশ) বা ইহার অথিক বশয়ার সরকার কর্তডক িারণকৃত ” 
+অর্থাৎ বকাঙ্গিা দাতব্য প্ররতষ্ঠাি গৃহ-সম্পরত্ত হঙ্গত বকাঙ্গিা ভ্াড়া আয় প্রাপ্ত 
+হঙ্গি তা উি দফা ১১-বত উঙ্গিরখত িতথারদ পররপািি সাঙ্গপঙ্গক্ষ বোট আয় 
+পররগর্িা হঙ্গত বাদ  াঙ্গব তঙ্গব, এরূপ অব্যাহরত এনথজও থবষয়ক বুেদরা 
+কর্তডক থনবথন্ধত ববসরকাথর প্রথতষ্ঠাদনর বেদত্র প্রদযাজে হদব না...
+2025-10-27 16:50:08,452 - INFO - 
+Unique PDFs accessed: {'Nirdeshika_2025-26', 'আয়কর পরিপত্র'}
+2025-10-27 16:50:08,452 - INFO - Total documents retrieved: 5
+2025-10-27 16:50:08,452 - INFO - ==================================================
+2025-10-27 16:50:10,266 - INFO - Responded to question in 'TEST4'. Cited 2 sources: [1, 4]
+2025-10-27 16:50:10,266 - INFO - Answer: আপনি Tax & Payment সেকশনে গিয়ে অনলাইনে উৎসে কর, অগ্রিম প্রদত্ত কর, পূর্ববর্তী বছরের পরিশোধিত অতিরিক্... | Sources: [{'source': 'Nirdeshika_2025-26', 'page': 131, 'text': 'এনকোনি ইনপুট মদনয় মিটানন দামিল কিনে পানিন আোি প্রনয়াজনন িিনয় িিনয় েথ্য ইনপুট মদনয় রিভ িািনে পািনেন \nএেং িিয় মননয় পিীো মনিীো কনি িােমিট কিনে পািনেন িােমিট কিা হনল রেনকাননা িিনয় প্রামি স্বীকািপত্র, মিটানন, \nিাটিনম নকট, চালান র্াউননলার্ ও মপ্রন্ট কিনে পািনেন ১৪. \nআিাি উৎনি কি ও অমগ্রি কি প্রদান কিা আনছ আমি মক অনলাইনন মিটানন দামিল কিনে পািে উত্তিঃ হযাঁ, পািনেন Tax & Payment রিকশনন আপমন ইনোিনে উৎনি কমেনে কি, অমগ্রি প্রদত্ত কি, পূেনেেী \nেছনি পমিনশামধে অমেমিক্ত কি এেং মিটানননি িানথ পমিনশামধে কনিি েথ্য প্রদান কনি আপনাি কি পমিনশানধি েথ্য \nআপনর্ট কনি মিটনান দামিল কিনে পািনেন ১২৪', 'citation_number': 1}, {'source': 'Nirdeshika_2025-26', 'page': 131, 'text': 'আয়, আমথনক পমিিম্পদ হনে আয় এেং অন্যান্য উৎি হনে আয় iii) Rebate- রিয়ােনোগ্য মেমননয়াগ রেিন জীেন মেিা, মর্মপএি, িঞ্চয়পত্র, মজমপএ  ইেযামদি েথ্য উনেি করুন iv) Expenditure- আপনাি োৎিমিক ব্যয় িংক্রান্ত েথ্য প্রদান করুন v) Asset & liabilities- িম্পদ এেং দায় িম্পনকন মেস্তামিে েথ্য রেিন: ব্যেিাি মূলধন, অ-কৃমষ িম্পমত্ত, কৃমষ \nিম্পমত্ত, আমথনক িম্পদ (রশয়াি, মর্নেঞ্চাি, রিমভংি িাটিনম নকট, এ মর্আি, মর্মপএি), রিাটি গামড়, রিানা, হীিা, \nগৃহস্থালীি মজমনিপত্র, নগদ ইেযামদ এছাড়া ঋনণি েথ্যও প্রদান করুন vi) Tax & payment- এই রিকশনন মিনেি আপনানক আপনাি রিাট আনয়ি মেেিণ, ট্যাক্স কমম্পউনটশননি মেেিণ, \nপ্রনদয় কনিি পমিিাণ রদিানে এই রিকশন রথনক আপমন ইনোিনে উৎনি কমেনে কি, অমগ্রি প্রদত্ত কি, পূেনেেী েছনি \nপমিনশামধে অমেমিক্ত কি এেং মিটানননি িানথ পমিনশামধে কনিি েথ্য প্রদান কনি আপনাি কি পমিনশানধি েথ্য আপনর্ট \nকিনে পািনেন', 'citation_number': 4}]
+2025-10-27 16:50:10,320 - INFO - 127.0.0.1 - - [27/Oct/2025 16:50:10] "POST /chat HTTP/1.1" 200 -
+2025-10-27 16:50:41,082 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\Nirdeshika_2025-26.pdf
+2025-10-27 16:50:41,082 - INFO - Successfully serving PDF: Nirdeshika_2025-26
+2025-10-27 16:50:41,083 - INFO - 127.0.0.1 - - [27/Oct/2025 16:50:41] "GET /pdf/TEST4/Nirdeshika_2025-26 HTTP/1.1" 200 -
+2025-10-27 17:01:00,610 - INFO - 127.0.0.1 - - [27/Oct/2025 17:01:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-10-27 17:01:00,613 - INFO - Found 2 vector store(s) for category 'TEST4'
+2025-10-27 17:01:00,614 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\066b5524c165f0989fcea419c61b6548
+2025-10-27 17:01:00,618 - INFO - Successfully loaded: আয়কর পরিপত্র
+2025-10-27 17:01:00,618 - INFO - Loading vector store from: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\vector_stores\TEST4\3c95df5f0823a009b22e12076911f1d5
+2025-10-27 17:01:00,623 - INFO - Successfully loaded: Nirdeshika_2025-26
+2025-10-27 17:01:00,624 - INFO - Merging 1 additional vector store(s)...
+2025-10-27 17:01:00,625 - INFO - Successfully merged vector store 1/1
+2025-10-27 17:01:00,625 - INFO - All vector stores merged successfully.
+2025-10-27 17:01:04,024 - INFO - ==================================================
+2025-10-27 17:01:04,024 - INFO - RETRIEVED AND RERANKED DOCUMENTS
+2025-10-27 17:01:04,024 - INFO - ==================================================
+2025-10-27 17:01:04,024 - INFO - 
+Document 1:
+2025-10-27 17:01:04,024 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 17:01:04,024 - INFO -    Page: 130
+2025-10-27 17:01:04,024 - INFO -    Language: bangla
+2025-10-27 17:01:04,024 - INFO -    Content Preview: অনুিিণ করুনঃ 
+ক etaxnbr.gov.bd এ প্রনেশ কিাি পি আপমন একটি স্ক্রীন রদিনে পানেন োি োি মদনক মেনটি রিনু রদিায় – 
+Home, Return submission, Tax record 
+ি রিই স্ক্রীন রথনক Return submission রিনুনে মিক করুন োিপি মিনেি আপনানক আনিকটি স্ক্রীনন মননয় 
+মগনয় Assessment information এেং heads of income রদিানে গ োিপি ধানপ ধানপ এমগনয় োন এেং ি টওয়যাি আপনানক গাইর্ কিনে, রেনকান টািন বুঝনে েমদ রকান অসুমেধা হয় 
+অনুগ্রহ কনি প্রথনি ইউজাি ম্যানুয়াল অনুিিণ করুন এছাড়াও অনলাইনন অমধকাংশ অপশননি উপনিই প্রশ্ননোধক মচহ্ন 
+িনয়নছ োি উপনি মিক কিনল রিই িংক্রান্ত মেস্তামিে ব্যািা পাওয়া োনে এেং োিপনিও েমদ ো রোঝা কঠিন হয় োহনল 
+কল রিন্টানি কল মদনয় বুনঝ মননে পানিন ১২৩...
+2025-10-27 17:01:04,024 - INFO - 
+Document 2:
+2025-10-27 17:01:04,024 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 17:01:04,024 - INFO -    Page: 15
+2025-10-27 17:01:04,024 - INFO -    Language: bangla
+2025-10-27 17:01:04,024 - INFO -    Content Preview: তার তরটাদনড বমাট আদয়র অন্তর্ভডি হদব আয়কর পতরগণনার তনয়ম  
+প্রথদম বমাট আয় তনরূপণ করদত হদব এরপর বমাট আদয়র উপর তবতভন্ন ধাপ অনুযায়ী করোয় তনরূপণ করদত 
+হদব তনরূতপত িস করোয় হদত তবতনদয়াগজসনত কর বরয়াত বাে তেদয় প্রদেয় করোয় তনধডারণ করদত হদব তনদম্ন স্বাভাতবক ব্যতি করোতার (Individual taxpayers) মক্ষশে ২০২৫-২০২৬ করবশষডর জন্য 
+প্রদযাজয করহার উপস্থাপন করা হদলা, যথা:-...
+2025-10-27 17:01:04,024 - INFO - 
+Document 3:
+2025-10-27 17:01:04,024 - INFO -    Original Source: আয়কর পরিপত্র
+2025-10-27 17:01:04,024 - INFO -    Page: 28
+2025-10-27 17:01:04,024 - INFO -    Language: bangla
+2025-10-27 17:01:04,024 - INFO -    Content Preview: র 
+বক্ষঙ্গত্র 
+টিআইএি 
+(Taxpayer’s 
+Identification Number) বা রপএসআর (PSR or Proof 
+of Submission of Return) এর প্রঙ্গ াজযতা রঙ্গয়ঙ্গছ রকিা উত্তর : িা প্রশ্ন-৪ : পররঙ্গবি সারচাজথ সংগ্রঙ্গহর জন্য দারয়ত্ব প্রাপ্ত ব্যরি উি সারচাজথ 
+সংগ্রঙ্গহ ব্যর্থ হঙ্গি বকাঙ্গিা প্রকাঙ্গরর দায় সৃরি হঙ্গব রকিা উত্তর : হযাঁ, পররঙ্গবি সারচাজথ সংগ্রঙ্গহর জন্য দারয়ত্ব প্রাপ্ত স্বাভ্ারবক ব্যরি 
+বা ব্যরিগর্ ব্যরিগতভ্াঙ্গব দায়ী হঙ্গবি ১.৭ প্ররতবন্ধী ব্যরি ও তৃতীয় রিঙ্গের ব্যরিঙ্গদর রিঙ্গয়াঙ্গগর জন্য কর বরয়াত...
+2025-10-27 17:01:04,024 - INFO - 
+Document 4:
+2025-10-27 17:01:04,024 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 17:01:04,024 - INFO -    Page: 132
+2025-10-27 17:01:04,024 - INFO -    Language: bangla
+2025-10-27 17:01:04,024 - INFO -    Content Preview: র্ (Transaction ID) পূিণ কনি কি পমিনশানধি 
+েথ্য হালনাগাদ কিনে হনে e-Return Ledger অংনশি জন্য প্রনয়াজনীয় র্কুনিন্ট হানে মননয় িেকনোি িানথ পূিণ কিনে হনে অন্যথায় 
+মিটানন পূিণ অিেয ও অিম্পূণন হনয় োনে িেননশষ মূল মিটাননন র িে আিনে Tax Payment Status মগনয় Go to Return োটনন মিক কিনে হনে ১৬. 
+রেেন হনে উৎনি কনিি রক্রমর্ট কীভানে পাে Tax & Payment রিকশনন Total Amount Payable এি মননচ Update Tax Payment 
+Status োটনন মিক কিনল e-Return Ledger এি রহাি রপজ আিনে এিানন Claim source tax এ 
+িিকামি কিনচামি োনদি ibas হনে রেেন হয় োিা Salary (ibas) মিনলক্ট কনি Search োটনন মিক কনি 
+কমেনে কনিি পমিিাণ রদিানে এেং আপমন কনিি পমিিাণ টাইপ কনি রিভ অপশনন মিক কনি েথ্য হালনাগাদ কিনেন অন্যান্যনদি রেনত্র Salary(others) চালান, িাটিনম নকট ো প্রেযয়ন থাকনল োি নম্বি, োমিি, ব্যাংনকি নাি, শািাি 
+নাি ো রি ানিন্স/নমথ/স্মািক নম্বি ও োমিি পূিণ কিনে হনে...
+2025-10-27 17:01:04,024 - INFO - 
+Document 5:
+2025-10-27 17:01:04,024 - INFO -    Original Source: Nirdeshika_2025-26
+2025-10-27 17:01:04,037 - INFO -    Page: 134
+2025-10-27 17:01:04,037 - INFO -    Language: bangla
+2025-10-27 17:01:04,037 - INFO -    Content Preview: অপমিনশামধে কি এ-চালান ো রিানালী ব্যাংক রগটওনয় ব্যেহাি কনি রিাোইল ব্যাংমকং রেিন- মেকাশ, িনকট, নগদ 
+ইেযামদ ো ইন্টািননট ব্যাংমকং এেং রর্মেট ও রক্রমর্ট কানর্নি িােনি কি পমিনশাধ কিনে পািনেন ২৩. 
+পূেনেেী েছনিি অমেমিক্ত পমিনশামধে কি কীভানে প্রদশনন কিে Tax & Payment রিকশনন Total Amount Payable এি মননচ Update Tax Payment 
+Status োটনন মিক কিনল e-Return Ledger এি রহাি রপজ আিনে এিানন োিপানশি Adjustment 
+of tax refund রিনু হনে আপমন পূেনেেী েছনিি অমেমিক্ত পমিনশামধে কনিি িিন্বয় প্রদশনন কিনে পািনেন েনে 
+উপ কি কমিশনাি আপনাি প্রদশনন িঠিক মকনা ো পিেেীনে রচক কিাি পি এ িিন্বয় িম্পূণনরুনপ কােনকি হনে ২৪. 
+আমি একজন িমহলা, মকন্তু পুরুষ মহনিনে আিাি কি পমিগণনা হনে এি কািণ কী এেং কিণীয় কী উত্তিঃ টিআইএন রিমজনেশননি িিয় আপনাি Gender ভুলেশে Male মিনলক্ট হওয়ায় এই িিস্যা হনে...
+2025-10-27 17:01:04,038 - INFO - 
+Unique PDFs accessed: {'Nirdeshika_2025-26', 'আয়কর পরিপত্র'}
+2025-10-27 17:01:04,038 - INFO - Total documents retrieved: 5
+2025-10-27 17:01:04,038 - INFO - ==================================================
+2025-10-27 17:01:06,878 - INFO - Responded to question in 'TEST4'. Cited 1 sources: [1]
+2025-10-27 17:01:06,878 - INFO - Answer: রিটার্ন জমা দেওয়ার ধাপগুলো হলো:
+১. প্রথমে, etaxnbr.gov.bd -এ প্রবেশ করার পর, হোম, রিটার্ন সাবমিশন, ... | Sources: [{'source': 'Nirdeshika_2025-26', 'page': 130, 'text': 'অনুিিণ করুনঃ \nক etaxnbr.gov.bd এ প্রনেশ কিাি পি আপমন একটি স্ক্রীন রদিনে পানেন োি োি মদনক মেনটি রিনু রদিায় – \nHome, Return submission, Tax record \nি রিই স্ক্রীন রথনক Return submission রিনুনে মিক করুন োিপি মিনেি আপনানক আনিকটি স্ক্রীনন মননয় \nমগনয় Assessment information এেং heads of income রদিানে গ োিপি ধানপ ধানপ এমগনয় োন এেং ি টওয়যাি আপনানক গাইর্ কিনে, রেনকান টািন বুঝনে েমদ রকান অসুমেধা হয় \nঅনুগ্রহ কনি প্রথনি ইউজাি ম্যানুয়াল অনুিিণ করুন এছাড়াও অনলাইনন অমধকাংশ অপশননি উপনিই প্রশ্ননোধক মচহ্ন \nিনয়নছ োি উপনি মিক কিনল রিই িংক্রান্ত মেস্তামিে ব্যািা পাওয়া োনে এেং োিপনিও েমদ ো রোঝা কঠিন হয় োহনল \nকল রিন্টানি কল মদনয় বুনঝ মননে পানিন ১২৩', 'citation_number': 1}]
+2025-10-27 17:01:06,932 - INFO - 127.0.0.1 - - [27/Oct/2025 17:01:06] "POST /chat HTTP/1.1" 200 -
+2025-10-27 17:01:23,418 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\Nirdeshika_2025-26.pdf
+2025-10-27 17:01:23,419 - INFO - Successfully serving PDF: Nirdeshika_2025-26
+2025-10-27 17:01:23,420 - INFO - 127.0.0.1 - - [27/Oct/2025 17:01:23] "[36mGET /pdf/TEST4/Nirdeshika_2025-26 HTTP/1.1[0m" 304 -
+2025-10-27 17:01:47,386 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\Nirdeshika_2025-26.pdf
+2025-10-27 17:01:47,387 - INFO - Successfully serving PDF: Nirdeshika_2025-26
+2025-10-27 17:01:47,388 - INFO - 127.0.0.1 - - [27/Oct/2025 17:01:47] "[36mGET /pdf/TEST4/Nirdeshika_2025-26 HTTP/1.1[0m" 304 -
+2025-10-27 17:02:01,586 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\Nirdeshika_2025-26.pdf
+2025-10-27 17:02:01,586 - INFO - Successfully serving PDF: Nirdeshika_2025-26
+2025-10-27 17:02:01,586 - INFO - 127.0.0.1 - - [27/Oct/2025 17:02:01] "[36mGET /pdf/TEST4/Nirdeshika_2025-26 HTTP/1.1[0m" 304 -
+2025-10-27 17:13:19,247 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\Nirdeshika_2025-26.pdf
+2025-10-27 17:13:19,247 - INFO - Successfully serving PDF: Nirdeshika_2025-26
+2025-10-27 17:13:19,247 - INFO - 127.0.0.1 - - [27/Oct/2025 17:13:19] "[36mGET /pdf/TEST4/Nirdeshika_2025-26 HTTP/1.1[0m" 304 -
+2025-10-27 17:14:38,608 - INFO - Attempting to serve PDF: C:\Users\BS 23- Desktop-00014\Documents\ChatWithPDFs\backend\uploads\TEST4\Nirdeshika_2025-26.pdf
+2025-10-27 17:14:38,609 - INFO - Successfully serving PDF: Nirdeshika_2025-26
+2025-10-27 17:14:38,610 - INFO - 127.0.0.1 - - [27/Oct/2025 17:14:38] "[36mGET /pdf/TEST4/Nirdeshika_2025-26 HTTP/1.1[0m" 304 -

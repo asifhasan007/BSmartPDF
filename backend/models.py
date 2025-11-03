@@ -2,6 +2,7 @@ import logging
 import os
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from config import EMBEDDING_MODEL_NAME
 
 logger = logging.getLogger(__name__)
@@ -14,8 +15,13 @@ def load_models():
             model_kwargs={'device': 'cuda'}
         )
 
-        logger.info("Initializing LLM with GPT...")
-        llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0.1)
+        logger.info("Initializing LLM with Gemini...")
+        #llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0.1)
+        llm = ChatGoogleGenerativeAI(
+            model="gemini-2.0-flash-lite",  
+            temperature=0.1,
+            google_api_key=os.environ.get("GOOGLE_API_KEY")  
+        )
 
         logger.info("Models loaded successfully.")
         return embeddings, llm
